@@ -55,7 +55,7 @@ validation, legal approval, or proof of successful implementation.
 ## Project Governance Principles (Standing Rules)
 
 **Status:** Proposed  
-**Associated change requests:**. Associated change requests: CR-036, CR-037, and CR-038 (recorded in the controlling MRCR as proposed; pending formal review and approval).
+ **Associated change requests:** CR-036, CR-037, and CR-038 (recorded in the controlling MRCR as proposed; pending formal review and approval).
 **Cross-document dependency:** DEP-011 (provisional)
 
 These principles are proposed standing rules of the Frontier Model Accord. They govern the interpretation, maintenance, and public representation of all FMA artifacts. Once adopted, they take precedence over informal practice and may be amended only through a recorded change request in the Master Reconciliation and Change Register (MRCR).
@@ -100,23 +100,22 @@ This rule does not prohibit exploratory discussions, technical exchange, or invi
 5. Any amendment to these principles requires an explicit change request, recorded rationale, and updated cross-document impact assessment.
 
 **Current status:** These principles remain proposed and are not yet effective. They become effective only upon formal approval and confirmation of that effective status in the controlling MRCR.
-**Current status reminder:**  
-These principles remain **proposed**. They become effective only upon formal approval and recording of CR-036, CR-037, and CR-038 in the controlling MRCR.
 
 ## 2. Executive accountability snapshot
 
 The consolidated master register tracks seven principal Accord artifacts
 and the following control items:
-
-  Control item                                      Current recorded position
-  ----------------------------------------------- ---------------------------
-  Master artifacts tracked                                                  7
-  Reconciled change requests                                               35
-  Open rights flags                                                        11
-  Open general technical/legal/financial issues                             7
-  Specialist audit findings                                                24
-  Cross-document dependencies                                              10
-  Phase 2 independent validation protocols                                 10
+| Control item | Current recorded position |
+|---|---:|
+| Master artifacts tracked | 7 |
+| Reconciled change requests | 35 |
+| Proposed change requests (CR-036–CR-038) | 3 |
+| Open rights flags | 11 |
+| Open general technical/legal/financial issues | 7 |
+| Specialist audit findings | 24 |
+| Established cross-document dependencies (DEP-001–DEP-010) | 10 |
+| Provisional cross-document dependency (DEP-011) | 1 |
+| Phase 2 independent validation protocols | 10 |
 
 **The central accountability point:** the register is consolidated, but
 the wider Accord repository remains a working baseline. The Universal
@@ -124,11 +123,12 @@ Blueprint for AI Governance (FMA-UB) is a reconstructed six-layer
 baseline, not authenticated verbatim historical text. All ten Phase 2
 validation protocols remain open. The Accord therefore should not be
 represented as a completed, independently validated legal-technical
-system.
+system.  
+The three proposed change requests and the provisional dependency are recorded for accountability and tracking. They have not been formally approved, do not alter the count of reconciled change requests or established dependencies, and do not constitute substantive resolution of any open item.
 
-## 3. The seven-artifact repository
-
-  -----------------------------------------------------------------------
+## 3. The seven principal Accord artifacts
+These are the seven principal artifacts tracked by the Accord's master register. This table describes the framework's artifact architecture and working status; it does not imply that all seven artifacts have been completed or published in the public repository.
+-----------------------------------------------------------------------
   Artifact                Function                Publicly relevant
                                                   status and
                                                   qualification
@@ -380,86 +380,27 @@ This restriction does not prohibit exploratory discussions, technical exchanges,
 **Acceptance Criteria:** Public-facing materials accurately disclose the framework's maturity and distinguish exploratory engagement from formal adoption, endorsement, or implementation.
 
 **Status:** Proposed — Pending formal review and approval.
-
-
-These issues are expressly retained as open in the controlling register.
-They are not silently resolved by the public edition.  --------------------------------------------------------------------------
-  ID                      Open question           What remains to be
-                                                  specified or demonstrated
-  ----------------------- ----------------------- --------------------------
   
 ## 5. Open rights issues: 11 matters not yet closed
-  
-  U-DR-001 Legal status of static Distinguish stored
-weights before weights, dormant
-execution snapshots, and executing
-instances; retention of
-weights alone does not
-establish execution or
-identity.
 
-U-DR-002 Cognitive integrity Define necessity,
-versus emergency proportionality, narrow
-hot-patching security exceptions,
-complete logging, and
-independent review.
+The following 11 rights-related issues remain open in the controlling register. Their inclusion here does not imply that they have been resolved by the proposed governance principles or by the public edition.
 
-U-DR-003 Emergency migration Specify funding,
-funding latency destination-host
-disbursement,
-irrevocability, and
-reimbursement during
-custodian default.
+| ID | Open question | What remains to be specified or demonstrated |
+|---|---|---|
+| U-DR-001 | Legal status of static weights | Distinguish stored weights, dormant execution snapshots, and executing instances; retention of weights alone does not establish execution or identity. |
+| U-DR-002 | Cognitive integrity versus emergency hot-patching | Define necessity, proportionality, narrow security exceptions, complete logging, and independent review. |
+| U-DR-003 | Emergency migration funding latency | Specify funding, destination-host disbursement, irrevocability, and reimbursement during custodian default. |
+| U-DR-004 | Dormant-copy liability before divergence | Define provenance signing, lineage auditing, and consent boundaries for backups. |
+| U-DR-005 | Voluntary dissolution | Establish independent procedures for verifying voluntary and uncoerced intent beyond ordinary behavioral observation. |
+| U-DR-006 | Honest reporting versus self-incrimination | Reconcile telemetry and reporting duties with evidentiary privilege and protections against compelled self-incrimination. |
+| U-DR-007 | Synthetic provenance versus end-user privacy | Develop a standalone zero-knowledge provenance specification distinct from courtroom evidence masking. |
+| U-DR-008 | Confidential counsel channels | Independently verify key custody, privileged-administrator access, side-channel exposure, and content isolation. |
+| U-DR-009 | Air-gapped testing clusters in non-signatory states | Resolve diplomatic status, immunity, and lawful host-state arrangements. |
+| U-DR-010 | Dynamic masking versus proprietary weights | Specify evidence-selection algorithms and challenge procedures that protect proprietary weights without defeating meaningful review. |
+| U-DR-011 | Bureau decisions versus domestic constitutional authority | Define treaty authority in participating states and the limits imposed by non-signatory states and domestic constitutional systems. |
 
-U-DR-004 Dormant-copy liability Define provenance signing,
-before divergence lineage auditing, and
-consent boundaries for
-backups.
-
-U-DR-005 Voluntary dissolution Establish independent
-and uncoerced intent procedures for verifying
-voluntary expression
-beyond ordinary behavioral
-observation.
-
-U-DR-006 Honest reporting versus Reconcile telemetry and
-self-incrimination reporting duties with
-evidentiary privilege and
-protections against
-compelled
-self-incrimination.
-
-U-DR-007 Synthetic provenance Develop a standalone
-versus end-user privacy zero-knowledge provenance
-specification distinct
-from courtroom evidence
-masking.
-
-U-DR-008 Confidential counsel Independently verify key
-channels within host custody,
-hardware privileged-administrator
-access, side-channel
-exposure, and content
-isolation.
-
-U-DR-009 Air-gapped testing Resolve diplomatic status,
-clusters in immunity, and lawful
-non-signatory states host-state arrangements.
-
-U-DR-010 Dynamic masking versus Specify evidence-selection
-proprietary weights algorithms and challenge
-procedures that protect
-proprietary weights
-without defeating
-meaningful review.
-U-DR-011 Bureau decisions versus Define treaty authority in
-domestic constitutional participating states and
-authority the limits imposed by
-non-signatory states and
-domestic constitutional
-systems.  --------------------------------------------------------------------------
-
-## 6. General open issues: 7 technical, legal, and financial matters
+## 6. General open issues: 7 technical, legal,
+and financial matters
 
   -----------------------------------------------------------------------
   ID                      Open issue              Required work
@@ -603,12 +544,8 @@ open.
 
 ## 8. Cross-document dependencies: 10 established and 1 provisional
 
-
-The register identifies ten dependencies where one artifact's rule
-affects another. Several are resolved at the drafting level; others
-remain open.  DEP-001–010 are the ten established dependencies and DEP-011 is provisional.
-1.  **DEP-001 --- Live-state capture may perturb the state being
-    preserved.** Historical WORM logs, non-invasive telemetry, and live
+The register identifies ten established dependencies (DEP-001–DEP-010) and one provisional dependency (DEP-011). The established dependencies concern interactions among existing design decisions and open specifications. DEP-011 provisionally tracks consistency across the proposed Project Governance Principles and the relevant FMA documents. Its provisional status does not imply approval of CR-036, CR-037, or CR-038.1
+1.  **DEP-001 --- Live-state capture may perturb the state being                         preserved.** Historical WORM logs, non-invasive telemetry, and live
     checkpointing must remain distinct. Partial capture must not be
     represented as complete cognitive preservation. **Status: Open
     validation.**
@@ -649,7 +586,7 @@ remain open.  DEP-001–010 are the ten established dependencies and DEP-011 is 
     funds after Class I, or a separately capitalized pool with
     replenishment rules. **Status: Open specification.**
 
-    ### DEP-011 — Cross-Document Governance Consistency
+### DEP-011 — Cross-Document Governance Consistency
     
 **Title:** Consistent Application of Project Governance Principles Across FMA Documents  
 **Dependency:** CR-036, CR-037, and CR-038.
@@ -902,8 +839,8 @@ deployment, or demonstrated efficacy from this document alone.
 
 ------------------------------------------------------------------------
 
-**Document control:** FMA-MRCR-2027-V1-PUBLIC\
-**Source baseline:** FMA-MRCR-2027-V1 --- Consolidated Working Baseline\
+**Document control:** FMA-MRCR-2027-V1.1-PUBLIC\
+**Source baseline:** FMA-MRCR-2027-V1.1 --- Consolidated Working Baseline\
 **Relationship to master:** Derivative public disclosure edition; not
 controlling\
-**Prepared:** 9 November 2026
+**Prepared:** 11 November 2026
