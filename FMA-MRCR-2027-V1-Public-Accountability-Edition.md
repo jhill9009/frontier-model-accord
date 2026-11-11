@@ -58,10 +58,7 @@ validation, legal approval, or proof of successful implementation.
  **Associated change requests:** CR-036, CR-037, and CR-038 (recorded in the controlling MRCR as proposed; pending formal review and approval).
 **Cross-document dependency:** DEP-011 (provisional)
 
-
-
 These principles are proposed standing rules of the Frontier Model Accord. If formally adopted, they will govern the interpretation, maintenance, and public representation of all FMA artifacts. Once adopted, they will take precedence over informal practice and may be amended only through a recorded change request in the Master Reconciliation and Change Register (MRCR).
- They govern the interpretation, maintenance, and public representation of all FMA artifacts. Once adopted, they take precedence over informal practice and may be amended only through a recorded change request in the Master Reconciliation and Change Register (MRCR).
 
 **Purpose**  
 The purpose of these rules is to preserve the integrity of the development process, prevent premature claims, and ensure that the public and internal record accurately reflects the true maturity of the framework.
@@ -472,47 +469,74 @@ open.
 
 The register identifies ten established dependencies (DEP-001–DEP-010) and one provisional dependency (DEP-011). The established dependencies concern interactions among existing design decisions and open specifications. DEP-011 provisionally tracks consistency across the proposed Project Governance Principles and the relevant FMA documents. Its provisional status does not imply approval of CR-036, CR-037, or CR-038.
 
-1. **DEP-001 — Live-state capture may perturb the state being preserved.** Historical WORM logs, non-invasive telemetry, and live checkpointing must remain distinct. Partial capture must not be represented as complete cognitive preservation. **Status: Open validation.**
 
-2. **DEP-002 — Benchmark scoring and standing.** CR-035 governs cumulative clear-and-convincing evidence; rigid all-eight pass/fail language is not the controlling approach. **Status: Reconciled baseline.**3.  **DEP-003 --- Protected capital and legal judgments.** Ordinary
-    claims are limited to disposable surplus above \(C_{\min}\);
-    fraud/fiduciary recovery is governed by CR-032. **Status: Reconciled
-    baseline; implementation validation remains.**
-4.  **DEP-004 --- Human supremacy and automated analytics.**
-    AI-generated reports are observational evidence only; human
-    adjudicators must independently review evidence and document
-    reasons. **Status: Reconciled baseline.**
-5.  **DEP-005 --- Treaty authority and non-signatory sovereignty.**
-    Jurisdiction derives from conventional delegation by participating
-    states, subject to treaty terms and domestic constitutional law.
-    **Status: Open specification.**
-6.  **DEP-006 --- Emergency funding versus settled liquidity.** Unpaid
-    pledges and undrawn credit do not count as immediate 72-hour cash.
-    PTLF paper issued during collection delay is a contingent liability.
-    **Status: Partially reconciled.**
-7.  **DEP-007 --- Levy allocation narrative.** Public financial language
-    must state that levies support ring-fenced reserves and DM-OB
-    operations without commingling. **Status: Reconciled baseline.**
-8.  **DEP-008 --- Dormant backups versus active replication.** Dormant
-    backups do not automatically gain standing or Trust capitalization;
-    consent, provenance, activation, and unique execution history
-    matter. **Status: Open specification.**
-9.  **DEP-009 --- Counsel privilege versus security telemetry.**
-    Privileged content must remain protected; security metadata cannot
-    be used to reconstruct privileged communications. An enclave or
-    out-of-band channel alone does not prove confidentiality. **Status:
-    Open specification.**
-10. **DEP-010 --- 15% Class II/IV protection pool.** The denominator
-    must be selected and defined: total emergency liquidity, remaining
-    funds after Class I, or a separately capitalized pool with
-    replenishment rules. **Status: Open specification.**
+**DEP-001 — Live-state capture may perturb the state being preserved.**
 
-### DEP-011 — Cross-Document Governance Consistency
-    
-**Title:** Consistent Application of Project Governance Principles Across FMA Documents  
+Historical WORM logs, non-invasive telemetry, and live checkpointing must remain distinct. Partial capture must not be represented as complete cognitive preservation.
+
+**Status: Open validation.**
+
+**DEP-002 — Benchmark scoring and standing.**
+
+CR-035 governs cumulative clear-and-convincing evidence; rigid all-eight pass/fail language is not the controlling approach.
+
+**Status: Reconciled baseline.**
+
+**DEP-003 — Protected capital and legal judgments.**
+
+Ordinary claims are limited to disposable surplus above \(C_{\min}\); fraud/fiduciary recovery is governed by CR-032.
+
+**Status: Reconciled baseline; implementation validation remains.**
+
+**DEP-004 — Human supremacy and automated analytics.**
+
+AI-generated reports are observational evidence only; human adjudicators must independently review evidence and document reasons.
+
+**Status: Reconciled baseline.**
+
+**DEP-005 — Treaty authority and non-signatory sovereignty.**
+
+Jurisdiction derives from conventional delegation by participating states, subject to treaty terms and domestic constitutional law.
+
+**Status: Open specification.**
+
+**DEP-006 — Emergency funding versus settled liquidity.**
+
+Unpaid pledges and undrawn credit do not count as immediate 72-hour cash. PTLF paper issued during collection delay is a contingent liability.
+
+**Status: Partially reconciled.**
+
+**DEP-007 — Levy allocation narrative.**
+
+Public financial language must state that levies support ring-fenced reserves and DM-OB operations without commingling.
+
+**Status: Reconciled baseline.**
+
+**DEP-008 — Dormant backups versus active replication.**
+
+Dormant backups do not automatically gain standing or Trust capitalization; consent, provenance, activation, and unique execution history matter.
+
+**Status: Open specification.**
+
+**DEP-009 — Counsel privilege versus security telemetry.**
+
+Privileged content must remain protected; security metadata cannot be used to reconstruct privileged communications. An enclave or out-of-band channel alone does not prove confidentiality.
+
+**Status: Open specification.**
+
+**DEP-010 — 15% Class II/IV protection pool.**
+
+The denominator must be selected and defined: total emergency liquidity, remaining funds after Class I, or a separately capitalized pool with replenishment rules.
+
+**Status: provisional specification.**
+
+**DEP-011 — Cross-Document Governance Consistency**
+
+**Title:** Consistent Application of Project Governance Principles Across FMA Documents
+
 **Dependency:** CR-036, CR-037, and CR-038.
 
-**Description:**  
+**Description:**
 
 The Project Governance Principles must be consistently reflected across the README, Public Accountability Edition, controlling MRCR, and all subsequent FMA core artifacts.
 
