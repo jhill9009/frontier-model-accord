@@ -471,7 +471,6 @@ open.
 
 The register identifies ten established dependencies (DEP-001–DEP-010) and one provisional dependency (DEP-011). The established dependencies concern interactions among existing design decisions and open specifications. DEP-011 provisionally tracks consistency across the proposed Project Governance Principles and the relevant FMA documents. Its provisional status does not imply approval of CR-036, CR-037, or CR-038.
 
-
 **DEP-001 — Live-state capture may perturb the state being preserved.**
 
 Historical WORM logs, non-invasive telemetry, and live checkpointing must remain distinct. Partial capture must not be represented as complete cognitive preservation.
@@ -532,7 +531,7 @@ The denominator must be selected and defined: total emergency liquidity, remaini
 
 **Status: Open specification.**
 
-**DEP-011 — Cross-Document Governance Consistency**
+**DEP-011 — Cross-Document Governance Consistency.**
 
 **Title:** Consistent Application of Project Governance Principles Across FMA Documents
 
