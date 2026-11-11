@@ -58,7 +58,9 @@ validation, legal approval, or proof of successful implementation.
  **Associated change requests:** CR-036, CR-037, and CR-038 (recorded in the controlling MRCR as proposed; pending formal review and approval).
 **Cross-document dependency:** DEP-011 (provisional)
 
-These principles are proposed standing rules of the Frontier Model Accord. They govern the interpretation, maintenance, and public representation of all FMA artifacts. Once adopted, they take precedence over informal practice and may be amended only through a recorded change request in the Master Reconciliation and Change Register (MRCR).
+
+These principles are proposed standing rules of the Frontier Model Accord. If formally adopted, they will govern the interpretation, maintenance, and public representation of all FMA artifacts. Once adopted, they will take precedence over informal practice and may be amended only through a recorded change request in the Master Reconciliation and Change Register (MRCR).
+ They govern the interpretation, maintenance, and public representation of all FMA artifacts. Once adopted, they take precedence over informal practice and may be amended only through a recorded change request in the Master Reconciliation and Change Register (MRCR).
 
 **Purpose**  
 The purpose of these rules is to preserve the integrity of the development process, prevent premature claims, and ensure that the public and internal record accurately reflects the true maturity of the framework.
@@ -468,11 +470,9 @@ open.
 ## 8. Cross-document dependencies: 10 established and 1 provisional
 
 The register identifies ten established dependencies (DEP-001–DEP-010) and one provisional dependency (DEP-011). The established dependencies concern interactions among existing design decisions and open specifications. DEP-011 provisionally tracks consistency across the proposed Project Governance Principles and the relevant FMA documents. Its provisional status does not imply approval of CR-036, CR-037, or CR-038.
-1.  **DEP-001 --- Live-state capture may perturb the state being preserved.**            Historical WORM logs, non-invasive telemetry, and live checkpointing must remain     distinct. Partial capture must not be represented as complete cognitive              preservation. **Status: Open validation.
-2.  **2.  **DEP-002 --- Benchmark scoring and standing.** CR-035 governs
-    cumulative clear-and-convincing evidence; rigid all-eight pass/fail
-    language is not the controlling approach. **Status: Reconciled
-    baseline.**
+
+1.  **DEP-001 --- Live-state capture may perturb the state being preserved.**            Historical WORM logs, non-invasive telemetry, and live checkpointing must remain     distinct. Partial capture must not be represented as complete cognitive              preservation. **Status: Open validation.**
+2.  **DEP-002 --- Benchmark scoring and standing.** CR-035 governs cumulative clear-     and-convincing evidence; rigid all-eight pass/fail language is not the               controlling approach. **Status: Reconciled baseline.**
 3.  **DEP-003 --- Protected capital and legal judgments.** Ordinary
     claims are limited to disposable surplus above \(C_{\min}\);
     fraud/fiduciary recovery is governed by CR-032. **Status: Reconciled
