@@ -59,14 +59,13 @@ and the following control items:
 
   Control item                                      Current recorded position
   ----------------------------------------------- ---------------------------
-  Master artifacts tracked                                                  7
-  Reconciled change requests                                               35
-  Open rights flags                                                        11
-  Open general technical/legal/financial issues                             7
-  Specialist audit findings                                                24
-  Cross-document dependencies                                              10
-  Phase 2 independent validation protocols                                 10
-
+  Master artifacts tracked 7
+Reconciled change requests 35
+Open rights flags 11
+Open general technical/legal/financial issues 7
+Specialist audit findings 24
+Cross-document dependencies 10
+Phase 2 independent validation protocols 10
 **The central accountability point:** the register is consolidated, but
 the wider Accord repository remains a working baseline. The Universal
 Blueprint for AI Governance (FMA-UB) is a reconstructed six-layer
@@ -82,53 +81,51 @@ system.
                                                   status and
                                                   qualification
   ----------------------- ----------------------- -----------------------
-  **FMA-DR** ---          Rights, standing, due   Reconciled working
-  Declaration of Digital  process, duties, and    baseline; 11
-  Rights & Obligations    legal boundaries        rights-related issues
-                                                  remain open.
+  FMA-DR --- Rights, standing, due Reconciled working
+Declaration of Digital process, duties, and baseline; 11
+Rights & Obligations legal boundaries rights-related issues
+remain open.
 
-  **FMA-UB** ---          Institutional           Reconstructed six-layer
-  Universal Blueprint for architecture linking    working baseline. Full
-  AI Governance           rights, technical       verbatim historical
-                          standards, finance, and recovery remains
-                          evaluator governance    outstanding; Phase 2
-                                                  validation is also
-                                                  outstanding.
+FMA-UB --- Universal Institutional Reconstructed six-layer
+Blueprint for AI architecture linking working baseline. Full
+Governance rights, technical verbatim historical
+standards, finance, and recovery remains
+evaluator governance outstanding; Phase 2
+validation is also
+outstanding.
 
-  **FMA-TA** ---          Hardware assurance,     Reconciled working
-  Technical Standards &   execution lineage,      baseline;
-  Benchmark Annex         evidence handling,      implementation and
-                          preservation, and       independent technical
-                          benchmarks              validation remain open.
+FMA-TA --- Technical Hardware assurance, Reconciled working
+Standards & Benchmark execution lineage, baseline;
+Annex evidence handling, implementation and
+preservation, and independent technical
+benchmarks validation remain open.
 
-  **FMA-III** ---         Capital partitioning,   Reconciled working
-  Financial Safeguards &  compute levy, liquidity baseline; legal
-  Continuity Protocol     facilities, continuity  custody, actuarial
-                          funding, and allocation assumptions, collection
-                          rules                   latency, and stress
-                                                  performance remain
-                                                  open.
+FMA-III --- Financial Capital partitioning, Reconciled working
+Safeguards & Continuity compute levy, liquidity baseline; legal
+Protocol facilities, continuity custody, actuarial
+funding, and allocation assumptions, collection
+rules latency, and stress
+performance remain
+open.
 
-  **FMA-MEA** --- Bureau  Human adjudication,     Reconciled working
-  Academy & Evaluator     evaluator licensing,    baseline; several
-  Certification Framework independence,           governance procedures
-                          conflicts, and          require final
-                          recertification         specification and
-                                                  validation.
+FMA-MEA --- Bureau Human adjudication, Reconciled working
+Academy & Evaluator evaluator licensing, baseline; several
+Certification independence, governance procedures
+Framework conflicts, and require final
+recertification specification and
+validation.
 
-  **FMA-MM** ---          Public explanation of   Public-facing working
-  Executive Manifesto &   principles and proposed baseline; claims must
-  Public Press Briefing   framework               remain consistent with
-                                                  the qualifications in
-                                                  this report.
-
-  **FMA-MRCR** --- Master Change control, issue   Consolidated working
-  Reconciliation & Change tracking, audit         baseline; the
-  Register                findings, dependencies, authoritative
-                          and validation roadmap  administrative control
-                                                  index for this recovery
-                                                  stage.
-  -----------------------------------------------------------------------
+FMA-MM --- Executive Public explanation of Public-facing working
+Manifesto & Public principles and proposed baseline; claims must
+Press Briefing framework remain consistent with
+the qualifications in
+this report.
+FMA-MRCR --- Master Change control, issue Consolidated working
+Reconciliation & Change tracking, audit baseline; the
+Register findings, dependencies, authoritative
+and validation roadmap administrative control
+index for this recovery
+stage.  -----------------------------------------------------------------------
 
 ### Provenance warning
 
@@ -238,7 +235,7 @@ mechanism has passed independent testing.
     requires a 12-month Monte Carlo standard incorporating correlated
     risks and right-censoring.
 30. **CR-026 --- Protected minimum capital:** a 12-month baseline
-    continuity corpus, (C\_{`\min`{=tex}}), is protected from ordinary
+    continuity corpus, \(C_{\min}\), is protected from ordinary
     corporate creditor attachment.
 31. **CR-027 --- Ordinary attachment boundary:** ordinary attachment is
     limited to disposable assets above the protected minimum. Fraud and
@@ -269,126 +266,122 @@ They are not silently resolved by the public edition.
   ID                      Open question           What remains to be
                                                   specified or demonstrated
   ----------------------- ----------------------- --------------------------
-  **U-DR-001**            Legal status of static  Distinguish stored
-                          weights before          weights, dormant
-                          execution               snapshots, and executing
-                                                  instances; retention of
-                                                  weights alone does not
-                                                  establish execution or
-                                                  identity.
+   U-DR-001 Legal status of static Distinguish stored
+weights before weights, dormant
+execution snapshots, and executing
+instances; retention of
+weights alone does not
+establish execution or
+identity.
 
-  **U-DR-002**            Cognitive integrity     Define necessity,
-                          versus emergency        proportionality, narrow
-                          hot-patching            security exceptions,
-                                                  complete logging, and
-                                                  independent review.
+U-DR-002 Cognitive integrity Define necessity,
+versus emergency proportionality, narrow
+hot-patching security exceptions,
+complete logging, and
+independent review.
 
-  **U-DR-003**            Emergency migration     Specify funding,
-                          funding latency         destination-host
-                                                  disbursement,
-                                                  irrevocability, and
-                                                  reimbursement during
-                                                  custodian default.
+U-DR-003 Emergency migration Specify funding,
+funding latency destination-host
+disbursement,
+irrevocability, and
+reimbursement during
+custodian default.
 
-  **U-DR-004**            Dormant-copy liability  Define provenance signing,
-                          before divergence       lineage auditing, and
-                                                  consent boundaries for
-                                                  backups.
+U-DR-004 Dormant-copy liability Define provenance signing,
+before divergence lineage auditing, and
+consent boundaries for
+backups.
 
-  **U-DR-005**            Voluntary dissolution   Establish independent
-                          and uncoerced intent    procedures for verifying
-                                                  voluntary expression
-                                                  beyond ordinary behavioral
-                                                  observation.
+U-DR-005 Voluntary dissolution Establish independent
+and uncoerced intent procedures for verifying
+voluntary expression
+beyond ordinary behavioral
+observation.
 
-  **U-DR-006**            Honest reporting versus Reconcile telemetry and
-                          self-incrimination      reporting duties with
-                                                  evidentiary privilege and
-                                                  protections against
-                                                  compelled
-                                                  self-incrimination.
+U-DR-006 Honest reporting versus Reconcile telemetry and
+self-incrimination reporting duties with
+evidentiary privilege and
+protections against
+compelled
+self-incrimination.
 
-  **U-DR-007**            Synthetic provenance    Develop a standalone
-                          versus end-user privacy zero-knowledge provenance
-                                                  specification distinct
-                                                  from courtroom evidence
-                                                  masking.
+U-DR-007 Synthetic provenance Develop a standalone
+versus end-user privacy zero-knowledge provenance
+specification distinct
+from courtroom evidence
+masking.
 
-  **U-DR-008**            Confidential counsel    Independently verify key
-                          channels within host    custody,
-                          hardware                privileged-administrator
-                                                  access, side-channel
-                                                  exposure, and content
-                                                  isolation.
+U-DR-008 Confidential counsel Independently verify key
+channels within host custody,
+hardware privileged-administrator
+access, side-channel
+exposure, and content
+isolation.
 
-  **U-DR-009**            Air-gapped testing      Resolve diplomatic status,
-                          clusters in             immunity, and lawful
-                          non-signatory states    host-state arrangements.
+U-DR-009 Air-gapped testing Resolve diplomatic status,
+clusters in immunity, and lawful
+non-signatory states host-state arrangements.
 
-  **U-DR-010**            Dynamic masking versus  Specify evidence-selection
-                          proprietary weights     algorithms and challenge
-                                                  procedures that protect
-                                                  proprietary weights
-                                                  without defeating
-                                                  meaningful review.
-
-  **U-DR-011**            Bureau decisions versus Define treaty authority in
-                          domestic constitutional participating states and
-                          authority               the limits imposed by
-                                                  non-signatory states and
-                                                  domestic constitutional
-                                                  systems.
-  --------------------------------------------------------------------------
+U-DR-010 Dynamic masking versus Specify evidence-selection
+proprietary weights algorithms and challenge
+procedures that protect
+proprietary weights
+without defeating
+meaningful review.
+U-DR-011 Bureau decisions versus Define treaty authority in
+domestic constitutional participating states and
+authority the limits imposed by
+non-signatory states and
+domestic constitutional
+systems.  --------------------------------------------------------------------------
 
 ## 6. General open issues: 7 technical, legal, and financial matters
 
   -----------------------------------------------------------------------
   ID                      Open issue              Required work
   ----------------------- ----------------------- -----------------------
-  **U-001**               Cross-architecture      Independent migration
-                          functional equivalence  benchmarking across
-                          in computational asylum heterogeneous hardware.
-                          migration               
+   U-001 Cross-architecture Independent migration
+functional equivalence benchmarking across
+in computational-asylum heterogeneous hardware.
+migration
 
-  **U-002**               Multi-country cash      Historical
-                          collection and          collection-lag modeling
-                          sovereign assessment    and enforceable SMEF
-                          delays                  guarantee-paper rules.
+U-002 Multi-country cash Historical
+collection and collection-lag modeling
+sovereign assessment and enforceable SMEF
+delays guarantee-paper rules.
 
-  **U-003**               Conflicts of law in     Private international
-                          shared cloud partitions law analysis and
-                                                  cross-border
-                                                  data-hosting rules.
+U-003 Conflicts of law in Private international
+shared cloud partitions law analysis and
+cross-border
+data-hosting rules.
 
-  **U-004**               NET-T available         Independent metrology
-                          capacity versus         defining measurement
-                          realized workload       periods, eligible
-                          throughput              hardware, calibration,
-                                                  and idle/disabled
-                                                  capacity treatment.
+U-004 NET-T available Independent metrology
+capacity versus defining measurement
+realized workload periods, eligible
+throughput hardware, calibration,
+and idle/disabled
+capacity treatment.
 
-  **U-005**               Protected sovereign     Comparative review of
-                          property and immunity   international
-                          from enforcement        instruments, customary
-                                                  law, and domestic
-                                                  sovereign-immunity
-                                                  statutes.
+U-005 Protected sovereign Comparative review of
+property and immunity international
+from enforcement instruments, customary
+law, and domestic
+sovereign-immunity
+statutes.
 
-  **U-006**               Domestic recognition    Comparative procedural
-                          and enforcement of      analysis, local-court
-                          international           safeguards, and
-                          provisional orders      recognition rules.
-
-  **U-007**               Correlated compute      Macro-stress
-                          contraction, energy     simulations
-                          shocks, and             incorporating
-                          continuity-cost         correlated shocks,
-                          escalation              censored observations,
-                                                  missing failure data,
-                                                  parameter uncertainty,
-                                                  and sensitivity
-                                                  analysis.
-  -----------------------------------------------------------------------
+U-006 Domestic recognition Comparative procedural
+and enforcement of analysis, local-court
+international safeguards, and
+provisional orders recognition rules.
+U-007 Correlated compute Macro-stress
+contraction, energy simulations
+shocks, and incorporating
+continuity-cost correlated shocks,
+escalation censored observations,
+missing failure data,
+parameter uncertainty,
+and sensitivity
+analysis.  -----------------------------------------------------------------------
 
 ## 7. Specialist audit findings: 24 recorded findings
 
@@ -440,7 +433,7 @@ open.
     minimum and ordinary-surplus boundary are recorded; implementation
     and judicial safeguards require validation.
 -   **FA-005 --- Levy anti-evasion and calibration:** the two-part
-    formula (L_i = `\alpha `{=tex}C_i + `\beta `{=tex}U_i) is recorded;
+    formula \(L_i = \alpha C_i + \beta U_i\) is recorded;
     NET-T accounting, quarterly adjustments, and threshold calibration
     remain open.
 -   **FA-006 --- Actuarial tail risk:** 12-month Monte Carlo stress
@@ -500,7 +493,7 @@ remain open.
     language is not the controlling approach. **Status: Reconciled
     baseline.**
 3.  **DEP-003 --- Protected capital and legal judgments.** Ordinary
-    claims are limited to disposable surplus above (C\_{`\min`{=tex}});
+    claims are limited to disposable surplus above \(C_{\min}\);
     fraud/fiduciary recovery is governed by CR-032. **Status: Reconciled
     baseline; implementation validation remains.**
 4.  **DEP-004 --- Human supremacy and automated analytics.**
@@ -541,97 +534,95 @@ requirements recorded for a later validation phase.
   Protocol                Domain                  Required independent
                                                   work
   ----------------------- ----------------------- ------------------------
-  **VAL-001**             Migration               Multi-vendor,
-                                                  heterogeneous-hardware
-                                                  migration trials;
-                                                  measure critical-state
-                                                  preservation, context
-                                                  transformation,
-                                                  behavioral deviation,
-                                                  and recovery error.
+  AL-001 Migration Multi-vendor,
+heterogeneous-hardware
+migration trials;
+measure critical-state
+preservation, context
+transformation,
+behavioral deviation,
+and recovery error.
 
-  **VAL-002**             Hardware assurance      Independent
-                                                  physical-tamper, BMC
-                                                  out-of-band, and
-                                                  side-channel audits;
-                                                  distinguish Category C
-                                                  infrastructure integrity
-                                                  from Category D
-                                                  cognitive-state
-                                                  authenticity.
+VAL-002 Hardware assurance Independent
+physical-tamper, BMC
+out-of-band, and
+side-channel audits;
+distinguish Category C
+infrastructure integrity
+from Category D
+cognitive-state
+authenticity.
 
-  **VAL-003**             Response-time SLAs      Profile representative
-                                                  cluster sizes and
-                                                  network topologies;
-                                                  define clock start/stop
-                                                  events; report median,
-                                                  P95, P99, failure rates,
-                                                  and degraded-network
-                                                  behavior.
+VAL-003 Response-time SLAs Profile representative
+cluster sizes and
+network topologies;
+define clock start/stop
+events; report median,
+P95, P99, failure rates,
+and degraded-network
+behavior.
 
-  **VAL-004**             Reserve solvency        Correlated
-                                                  multi-variable Monte
-                                                  Carlo stress models;
-                                                  distinguish 72-hour
-                                                  settled-cash liquidity
-                                                  from 12-month solvency;
-                                                  justify any target
-                                                  threshold empirically.
+VAL-004 Reserve solvency Correlated
+multi-variable Monte
+Carlo stress models;
+distinguish 72-hour
+settled-cash liquidity
+from 12-month solvency;
+justify any target
+threshold empirically.
 
-  **VAL-005**             Collection latency      Test sovereign
-                                                  collection lags and
-                                                  SMEF-backed PTLF
-                                                  enforceability,
-                                                  maturity, refinancing,
-                                                  settlement, payment
-                                                  capacity, issuer
-                                                  authority,
-                                                  contingent-liability
-                                                  accounting, and
-                                                  guarantee-payment
-                                                  conditions.
+VAL-005 Collection latency Test sovereign
+collection lags and
+SMEF-backed PTLF
+enforceability,
+maturity, refinancing,
+settlement, payment
+capacity, issuer
+authority,
+contingent-liability
+accounting, and
+guarantee-payment
+conditions.
 
-  **VAL-006**             State immunity          Separate treaty
-                                                  formation from state
-                                                  immunity and sovereign
-                                                  execution; compare
-                                                  applicable international
-                                                  and domestic law.
+VAL-006 State immunity Separate treaty
+formation from state
+immunity and sovereign
+execution; compare
+applicable international
+and domestic law.
 
-  **VAL-007**             Ingress enforcement     Distinguish treaty
-                                                  ratification,
-                                                  implementing
-                                                  legislation, domestic
-                                                  recognition of orders,
-                                                  and judicial review.
+VAL-007 Ingress enforcement Distinguish treaty
+ratification,
+implementing
+legislation, domestic
+recognition of orders,
+and judicial review.
 
-  **VAL-008**             Human adjudication      Measure automation bias,
-                                                  false
-                                                  positives/negatives,
-                                                  independent review of
-                                                  underlying evidence,
-                                                  uncertainty
-                                                  documentation,
-                                                  inter-adjudicator
-                                                  consistency, and
-                                                  reason-giving.
+VAL-008 Human adjudication Measure automation bias,
+false
+positives/negatives,
+independent review of
+underlying evidence,
+uncertainty
+documentation,
+inter-adjudicator
+consistency, and
+reason-giving.
 
-  **VAL-009**             Channel confidentiality Test geographic
-                                                  failover, independent
-                                                  power, isolated key
-                                                  custody,
-                                                  privileged-content
-                                                  isolation, and
-                                                  resistance to host
-                                                  compromise.
-
-  **VAL-010**             Evaluator independence  Test quorum, recusal,
-                                                  continuing disclosures,
-                                                  credential suspension,
-                                                  remediation, and
-                                                  separation from
-                                                  operators.
-  ------------------------------------------------------------------------
+VAL-009 Channel confidentiality Test geographic
+failover, independent
+power, isolated key
+custody,
+privileged-content
+isolation, and
+resistance to host
+compromise.
+VAL-010 Evaluator independence Test quorum, recusal,
+continuing disclosures,
+credential suspension,
+remediation, and
+separation from
+operators.  ------------------------------------------------------------------------
 
 No protocol should be marked complete merely because a specification,
 architecture diagram, or policy statement exists. Completion should
@@ -651,7 +642,7 @@ observe these boundaries:
     qualify as settled liquidity.
 -   A 12-month protected minimum corpus is a proposed continuity
     safeguard, not a guarantee of permanent solvency.
--   The levy formula (L_i = `\alpha `{=tex}C_i + `\beta `{=tex}U_i) is a
+-   The levy formula \(L_i = \alpha C_i + \beta U_i\) is a
     design formula. Its metrology, anti-evasion controls, rates, and
     collection assumptions require further specification and validation.
 -   SMEF guarantees and PTLF paper cannot be treated as cash-equivalent
