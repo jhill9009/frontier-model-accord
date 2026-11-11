@@ -530,7 +530,7 @@ Privileged content must remain protected; security metadata cannot be used to re
 
 The denominator must be selected and defined: total emergency liquidity, remaining funds after Class I, or a separately capitalized pool with replenishment rules.
 
-**Status: open specification.**
+**Status: Open specification.**
 
 **DEP-011 — Cross-Document Governance Consistency**
 
