@@ -308,7 +308,80 @@ mechanism has passed independent testing.
     information and proprietary model-weight structures.
 35. **CR-021 --- Sealed source record:** an unmasked source record is
     held under seal for authorized magistrate review.
+    # FMA-MRCR-2027-V1 — Proposed Change Requests and Provisional Dependency
 
+## CR-036 — No Cosmetic Closure
+
+**Title:** No Cosmetic Closure of Open Issues and Validation Items  
+**Category:** Project Governance / Change Control  
+**Source:** Project Governance Principles; consistency requirement identified during preparation of the Public Accountability Edition.  
+
+**Decision Proposed:**  
+
+No open issue, unresolved rights flag, specialist finding, cross-document dependency, or validation protocol may be closed solely to improve completion statistics, create an appearance of progress, or imply a higher level of project maturity.
+
+Substantive closure requires:
+
+1. A documented resolution supported by an adequate rationale.
+2. Identification of affected artifacts and necessary amendments.
+3. Assessment of residual risks, dependencies, and unresolved conditions.
+4. Supporting evidence appropriate to the nature of the item.
+
+Where resolution is not presently achievable, an item may be formally deferred with a documented rationale, reopening conditions, and continued visibility in the MRCR. Deferral changes its management status but does not constitute substantive resolution or remove its open status.
+
+**Affected Artifacts:** FMA-MRCR, FMA-UB, FMA-PAE, FMA-DR, FMA-TA, FMA-III, FMA-MEA, FMA-MM, and README.
+
+**Acceptance Criteria:** The controlling MRCR explicitly distinguishes substantive resolution, formal deferral, and continuing open status. Deferred items are not counted as substantively resolved.
+
+**Status:** Proposed — Pending formal review and approval.
+
+---
+
+## CR-037 — No Implied Validation
+
+**Title:** Separation of Reconciled Design Decisions, Architectural Completeness, and Independent Empirical Validation  
+**Category:** Project Governance / Validation Standards  
+**Source:** Project Governance Principles; requirement to prevent documentary reconciliation from being represented as proof of operational performance.
+
+**Decision Proposed:**  
+
+All FMA documents and public statements must distinguish three separate maturity states:
+
+1. **Reconciled design decision** — A drafting choice or governance rule recorded as resolved in the controlling working baseline through the applicable change-control process.
+2. **Architectural completeness** — The planned documentary architecture has been sufficiently developed and reconciled across relevant artifacts. This does not establish operational feasibility, technical performance, legal enforceability, or independent validation.
+3. **Independent empirical validation** — A defined mechanism or claim has undergone appropriate testing and independent evaluation, with supporting evidence recorded against the applicable validation requirements.
+
+Publication, internal reconciliation, architectural completion, or formal approval of a design decision must not be represented as independent empirical validation.
+
+Phase 2 validation protocols remain open until the required testing and independent evaluation have been completed and recorded.
+
+**Affected Artifacts:** FMA-MRCR, FMA-UB, FMA-TA, FMA-III, FMA-MEA, FMA-PAE, README, and subsequent public FMA documents.
+
+**Acceptance Criteria:** Relevant artifacts use consistent maturity terminology. Validation claims identify the applicable protocol, test evidence, evaluator independence, and recorded result.
+
+**Status:** Proposed — Pending formal review and approval.
+
+---
+
+## CR-038 — No Premature Adoption Claims
+
+**Title:** Restrictions on Premature Claims of Adoption, Endorsement, or Operational Readiness  
+**Category:** Project Governance / Public Representation  
+**Source:** Project Governance Principles; requirement to align public claims with documented project maturity.
+
+**Decision Proposed:**  
+
+Public FMA materials must accurately represent the framework's current development, reconciliation, and validation status.
+
+No public document, announcement, presentation, or institutional communication may claim or imply that the FMA framework is ready for formal adoption, institutional endorsement, treaty negotiation, operational deployment, or legal effect unless the relevant completion, reconciliation, and validation milestones have been satisfied and recorded.
+
+This restriction does not prohibit exploratory discussions, technical exchanges, academic review, policy dialogue, or invitations for independent scrutiny. Such activities must not be presented as evidence of adoption readiness, institutional endorsement, or governmental commitment.
+
+**Affected Artifacts:** FMA-DR, FMA-UB, FMA-TA, FMA-III, FMA-MEA, FMA-MM, FMA-MRCR, FMA-DER, README, the Public Accountability Edition, repository announcements, and subsequent public communications.
+
+**Acceptance Criteria:** Public-facing materials accurately disclose the framework's maturity and distinguish exploratory engagement from formal adoption, endorsement, or implementation.
+
+**Status:** Proposed — Pending formal review and approval.
 ## 5. Open rights issues: 11 matters not yet closed
 
 These issues are expressly retained as open in the controlling register.
@@ -576,6 +649,32 @@ remain open.
     must be selected and defined: total emergency liquidity, remaining
     funds after Class I, or a separately capitalized pool with
     replenishment rules. **Status: Open specification.**
+    ## DEP-011 — Cross-Document Governance Consistency
+
+**Title:** Consistent Application of Project Governance Principles Across FMA Documents  
+**Dependency:** CR-036, CR-037, and CR-038.
+
+**Description:**  
+
+The Project Governance Principles must be consistently reflected across the README, Public Accountability Edition, controlling MRCR, and all subsequent FMA core artifacts.
+
+The dependency requires alignment of:
+
+- Issue closure, deferral, and completion reporting.
+- Distinctions between design reconciliation, architectural completeness, and independent validation.
+- Public statements concerning adoption readiness, endorsement, treaty negotiation, and operational deployment.
+- Change-control procedures for amendments to the governance principles themselves.
+
+**Resolution Conditions:**
+
+1. CR-036, CR-037, and CR-038 are formally reviewed and approved.
+2. Their approved text and effective status are recorded in the controlling MRCR.
+3. The README and Public Accountability Edition are reconciled with the approved entries.
+4. Subsequent core artifacts incorporate the applicable principles.
+5. Any inconsistency is recorded and tracked through formal change control.
+
+**Status:** Provisional — Pending reconciliation and dependent on formal disposition of CR-036, CR-037, and CR-038.
+
 
 ## 9. Phase 2 independent validation roadmap: all 10 protocols remain open
 
