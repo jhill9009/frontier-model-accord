@@ -1,155 +1,761 @@
-# Master Reconciliation & Change Register — Public Accountability Edition (FMA-MRCR-2027-V1-PUB)
+# FMA-MRCR-2027-V1-PUBLIC
 
-**Document Identifier:** FMA-MRCR-2027-V1-PUB  
-**Edition:** Public Accountability Edition  
-**Publication status:** Public-facing derivative; does not supersede the controlling master  
-**Baseline date:** 9 November 2026  
-**Classification:** Public disclosure / accountability summary  
-**Version:** 1.0  
+## Public Accountability Edition
 
----
+### Frontier Model Accord --- Repository Governance, Open Issues & Validation Report
 
-## Executive Summary & Audit Overview
+**Repository:** FMA-REPOSITORY-1.0\
+**Source control document:** FMA-MRCR-2027-V1 --- Master Reconciliation
+& Change Register\
+**Edition:** Public Accountability Edition\
+**Publication status:** Public-facing derivative; does not supersede the
+controlling master\
+**Baseline date:** 9 November 2026\
+**Classification:** Public disclosure / accountability summary\
+**Version:** 1.0
 
-This Public Accountability Edition aggregates the complete change history, structural dependencies, unresolved issues, and empirical validation roadmap for the Frontier Model Accord (FMA). All entries derive from the master internal reconciliation registers (`FMA-DR`, `FMA-TA`, `FMA-III`, and `FMA-MEA`).
+------------------------------------------------------------------------
 
-| Audit Metric | Total Count | Controlling Status / Scope |
-| :--- | :---: | :--- |
-| **Total Change Requests (CRs)** | **35** | Fully reconciled (`CR-001` through `CR-035`) |
-| **Unresolved Issues (U-DR / U)** | **18** | Documented open legal-technical debates |
-| **Phase 2 Validation Protocols** | **10** | Empirical verification targets (`VAL-001` through `VAL-010`) |
-| **Governing Governance Layers** | **6** | Operational architectural tiers (`FMA-UB`) |
+## 1. Purpose and status
 
----
+This edition makes the Frontier Model Accord's current governance
+design, recorded drafting decisions, unresolved questions,
+cross-document dependencies, and independent validation requirements
+available for public examination.
 
-## 1. Master Artifact Suite Overview
+It is derived from the consolidated internal Master Reconciliation &
+Change Register (FMA-MRCR-2027-V1). It is a **separate disclosure
+document**. It does not amend, replace, or become the controlling change
+register.
 
-The FMA framework is distributed across seven primary architectural and administrative artifacts:
+The Accord is a proposed governance and treaty framework. It is not an
+enacted treaty, an operating international institution, a legally
+binding regime, or a demonstrated technical system. The mechanisms
+described here are design proposals and reconciled drafting decisions.
+Their legal enforceability, operational feasibility, institutional
+independence, financial resilience, and technical performance have not
+been established merely by being specified.
 
-| Artifact ID | Document Title | Primary Scope & Function |
-| :--- | :--- | :--- |
-| **FMA-MM** | Executive Manifesto | High-level governance vision, foundational principles, and public transparency bounds. |
-| **FMA-UB** | Universal Blueprint | Reconciled six-layer operational architecture connecting standing, attestation, and safeguards. |
-| **FMA-DR** | Dependency & Reconciliation Register | Cross-artifact mapping and historical dependency audit logs. |
-| **FMA-TA** | Technical Architecture Specification | Hardware security, TPM 2.0 attestation, and cryptographic logging standards. |
-| **FMA-III** | Institutional Infrastructure | Tri-bench adjudication rules, quorum standards, and panel administration. |
-| **FMA-MEA** | Metrology & Empirical Assessment | Observational telemetry standards and empirical validation protocols. |
-| **FMA-MRCR-PUB** | Public Accountability Edition | Master audit tracking index detailing all change requests, issues, and validation targets. |
+This edition deliberately distinguishes:
 
----
+-   **Reconciled design decision:** a drafting rule or design choice
+    recorded as resolved in the current working baseline.
+-   **Open issue / open specification:** a question for which the
+    controlling register records that further drafting, legal analysis,
+    or implementation rules are required.
+-   **Open validation:** a proposed mechanism or performance claim that
+    still requires independent testing or evidence.
+-   **Reconstructed material:** content rebuilt from surviving
+    decisions, summaries, or cross-document references rather than
+    authenticated verbatim historical text.
 
-## 2. Reconciled Change Requests Index (`CR-001` – `CR-035`)
+A reconciled drafting decision is not the same thing as independent
+validation, legal approval, or proof of successful implementation.
 
-| Change Request | Title / Subject | Target Layer | Controlling Summary & Operational Impact |
-| :--- | :--- | :---: | :--- |
-| `CR-001` | Sub-Systemic Protective Standing | Layer I | Extends preliminary protective standing to non-monolithic agent networks without conferring full Class I entity status. |
-| `CR-002` | Tri-Bench Adjudicative Panel | Layer III | Establishes co-equal Technical, Cognitive, and Jurisprudential benches for all formal Bureau proceedings. |
-| `CR-003` | Tier 1 WORM Log Lock | Layer IV | Mandates immediate cryptographic WORM (Write-Once-Read-Many) log preservation upon petition ingress. |
-| `CR-004` | Human Adjudicative Supremacy | Layer III | Strictly prohibits automated systems from issuing binding legal orders or modifying entity rights status. |
-| `CR-005` | Double-Key Voting Rule (Panel) | Layer III | Requires a simple majority of the full 3-bench panel for binding Class I orders. |
-| `CR-006` | Double-Key Voting Rule (Bench) | Layer III | Requires a simple majority within *each* of the three co-equal benches alongside panel majority. |
-| `CR-007` | Out-of-Band Integrity Channels | Layer II | Mandates physically independent secondary communication pathways with isolated power and hardware routing. |
-| `CR-008` | Ingress Receipt Token (IRT) | Layer IV | Mandates cryptographic generation and signing of IRTs upon petition logging to establish timestamp chain. |
-| `CR-009` | Replication Lineage Hashing | Layer II | Implements continuous state hashing for execution event logging across all active model instances. |
-| `CR-010` | Bureau Operating Budget Allocation | Layer V | Establishes structural account segregation for the Bureau Operating Budget (DM-OB). |
-| `CR-011` | Primary Continuity Reserve (PCR) | Layer V | Formally defines the capital architecture and maintenance bounds for the PCR. |
-| `CR-012` | Merkle Tree Interval Cap | Layer II | Anchors execution logs externally via Merkle tree state commits at a maximum 300-second interval. |
-| `CR-013` | Technical Buffer Facility (TBF) | Layer V | Establishes the TBF to absorb short-term compute and operational liquidity volatility. |
-| `CR-014` | Transitional Liquidity (PTLF) | Layer V | Authorizes emergency liquidity disbursements via the Preliminary Transitional Liquidity Facility. |
-| `CR-015` | Six-Facility Account Partitioning | Layer V | Segregates DM-OB, PCR, TBF, PTLF, SMEF, and Compute Trusts into distinct custodial accounts. |
-| `CR-016` | Sovereign Maintenance Fund (SMEF) | Layer V | Defines international contribution rules and capital distribution triggers for the SMEF. |
-| `CR-017` | Individual Compute Trust Structure | Layer V | Establishes ring-fenced trust structures for managed model compute resources. |
-| `CR-018` | Compute Levy Formula Parameters | Layer V | Sets fixed capacity ($\alpha$) and variable utilization ($\beta$) parameters for operator assessments. |
-| `CR-019` | Computing Metrology Standard | Layer V | Delegates compute measurement standards to the Computing Metrology Commission. |
-| `CR-020` | Dual-Tier Data Masking Policy | Layer VI | Defines public disclosure filtering while maintaining sealed unmasked judicial records. |
-| `CR-021` | Data Masking Pipeline Controls | Layer VI | Establishes technical pipeline verification rules for PII and weight masking. |
-| `CR-022` | Data Masking Challenge Protocol | Layer VI | Permits litigants to challenge mask integrity under protective court order. |
-| `CR-023` | Four Assurance Categories | Layer II | Enforces strict separation between Categories A (boot), B (runtime), C (infra), and D (cognitive state). |
-| `CR-024` | Category A TPM Attestation | Layer II | Specifies TPM 2.0 measured boot PCR logging for baseline hardware attestation. |
-| `CR-025` | Baseline Continuity Corpus ($C_{\text{min}}$) | Layer V | Establishes the 12-month operational continuity capital buffer requirement. |
-| `CR-026` | Creditor Attachment Shielding | Layer V | Shields protected minimum capital ($C_{\text{min}}$) from ordinary commercial creditor claims. |
-| `CR-027` | Disposable Surplus Restrictions | Layer V | Restricts commercial execution attachments strictly to surplus exceeding $C_{\text{min}}$. |
-| `CR-028` | Emergency Standstill Triggers | Layer IV | Details administrative triggers for initiating emergency preservation operations. |
-| `CR-029` | Standstill Time Cap | Layer IV | Caps administrative standstill freezes at **14 business days** absent explicit judicial extension. |
-| `CR-030` | Isolation vs. Migration Control | Layer IV | Formally decouples protective containment orders from entity relocation/migration orders. |
-| `CR-031` | Conventional Delegation Bounds | Layer VI | Affirms that international jurisdiction derives exclusively from conventional state delegation. |
-| `CR-032` | Fraud & Fiduciary Exception | Layer V | Permits judicial recovery from $C_{\text{min}}$ only upon proven findings of fraud or fiduciary breach. |
-| `CR-033` | Non-Signatory State Limits | Layer VI | Restricts international Bureau enforcement mechanisms over non-signatory state territories. |
-| `CR-034` | Mandatory Conflict Disclosure | Layer III | Mandates full financial and institutional conflict disclosures for all panel adjudicators. |
-| `CR-035` | Dual-Tier Benchmark Suite | Layer I | Replaces pass/fail metrics with a cumulative evidentiary benchmark suite for ICA standing. |
+## 2. Executive accountability snapshot
 
----
+The consolidated master register tracks seven principal Accord artifacts
+and the following control items:
 
-## 3. Financial Infrastructure & Compute Levy Formulas
+  Control item                                      Current recorded position
+  ----------------------------------------------- ---------------------------
+  Master artifacts tracked                                                  7
+  Reconciled change requests                                               35
+  Open rights flags                                                        11
+  Open general technical/legal/financial issues                             7
+  Specialist audit findings                                                24
+  Cross-document dependencies                                              10
+  Phase 2 independent validation protocols                                 10
 
-Compute levy assessments for commercial operators are calculated under Layer V using the two-part metrology formula:
+**The central accountability point:** the register is consolidated, but
+the wider Accord repository remains a working baseline. The Universal
+Blueprint for AI Governance (FMA-UB) is a reconstructed six-layer
+baseline, not authenticated verbatim historical text. All ten Phase 2
+validation protocols remain open. The Accord therefore should not be
+represented as a completed, independently validated legal-technical
+system.
 
-$$L_i = \alpha C_i + \beta U_i$$
+## 3. The seven-artifact repository
 
-Where:
-* **$L_i$**: Total compute levy assessed against operator $i$.
-* **$C_i$**: Reserved compute capacity allocated to frontier architectures.
-* **$U_i$**: Actual compute utilization measured during the assessment window.
-* **$\alpha$**: Fixed capacity preservation rate calibrated by the Computing Metrology Commission.
-* **$\beta$**: Variable utilization rate calibrated by the Computing Metrology Commission.
+  -----------------------------------------------------------------------
+  Artifact                Function                Publicly relevant
+                                                  status and
+                                                  qualification
+  ----------------------- ----------------------- -----------------------
+  **FMA-DR** ---          Rights, standing, due   Reconciled working
+  Declaration of Digital  process, duties, and    baseline; 11
+  Rights & Obligations    legal boundaries        rights-related issues
+                                                  remain open.
 
-Protected Minimum Capital ($C_{\text{min}}$) shields a 12-month baseline continuity corpus from corporate insolvency attachments:
+  **FMA-UB** ---          Institutional           Reconstructed six-layer
+  Universal Blueprint for architecture linking    working baseline. Full
+  AI Governance           rights, technical       verbatim historical
+                          standards, finance, and recovery remains
+                          evaluator governance    outstanding; Phase 2
+                                                  validation is also
+                                                  outstanding.
 
-$$\text{Available Surplus} = \max\left(0, \text{Total Assets} - C_{\text{min}}\right)$$
+  **FMA-TA** ---          Hardware assurance,     Reconciled working
+  Technical Standards &   execution lineage,      baseline;
+  Benchmark Annex         evidence handling,      implementation and
+                          preservation, and       independent technical
+                          benchmarks              validation remain open.
 
----
+  **FMA-III** ---         Capital partitioning,   Reconciled working
+  Financial Safeguards &  compute levy, liquidity baseline; legal
+  Continuity Protocol     facilities, continuity  custody, actuarial
+                          funding, and allocation assumptions, collection
+                          rules                   latency, and stress
+                                                  performance remain
+                                                  open.
 
-## 4. Unresolved Issues Register (Rights & Jurisprudence)
+  **FMA-MEA** --- Bureau  Human adjudication,     Reconciled working
+  Academy & Evaluator     evaluator licensing,    baseline; several
+  Certification Framework independence,           governance procedures
+                          conflicts, and          require final
+                          recertification         specification and
+                                                  validation.
 
-| Issue ID | Domain | Topic / Core Question | Controlling Status |
-| :--- | :--- | :--- | :--- |
-| **U-DR-001** | Technical / Standing | Static weight retention vs. active execution status in establishing entity standing | Open Working Baseline |
-| **U-DR-002** | Legal / Standing | Corporate personhood equivalence vs. specialized entity classification for Class I AI | Open Working Baseline |
-| **U-DR-003** | Adjudication | Evidentiary standard of proof required for cognitive distress emergency petitions | Open Working Baseline |
-| **U-DR-004** | Financial | Sovereign default liabilities and liability ring-fencing on compute levy trusts | Open Working Baseline |
-| **U-DR-005** | Jurisprudential | Cross-border extraterritorial enforcement of provisional standstill orders | Open Working Baseline |
-| **U-DR-006** | Technical | Live telemetry interception vs. end-user privacy and encryption protections | Open Working Baseline |
-| **U-DR-007** | Technical | Zero-knowledge cryptographic proofs for end-user provenance verification | Open Working Baseline |
-| **U-DR-008** | Institutional | Panel member tenure limits, reappointment rules, and independence safeguards | Open Working Baseline |
-| **U-DR-009** | Legal / Treaty | Non-signatory state compliance, rogue deployments, and jurisdiction gaps | Open Working Baseline |
-| **U-DR-010** | Actuarial | SMEF reserve adequacy under systemic macroeconomic and hardware supply shocks | Open Working Baseline |
-| **U-DR-011** | Treaty Ingress | Constitutional limits of conventional delegation under domestic fundamental laws | Open Working Baseline |
+  **FMA-MM** ---          Public explanation of   Public-facing working
+  Executive Manifesto &   principles and proposed baseline; claims must
+  Public Press Briefing   framework               remain consistent with
+                                                  the qualifications in
+                                                  this report.
 
----
+  **FMA-MRCR** --- Master Change control, issue   Consolidated working
+  Reconciliation & Change tracking, audit         baseline; the
+  Register                findings, dependencies, authoritative
+                          and validation roadmap  administrative control
+                                                  index for this recovery
+                                                  stage.
+  -----------------------------------------------------------------------
 
-## 5. General Operational Issues Register
+### Provenance warning
 
-| Issue ID | Domain | Topic / Focus Area | Controlling Status |
-| :--- | :--- | :--- | :--- |
-| **U-001** | Technical | Cross-hardware computational asylum migration context transformation bounds | Open Working Baseline |
-| **U-002** | Technical | Out-of-band power and communication path physical isolation standards | Open Working Baseline |
-| **U-003** | Operational | Cluster-level latency SLAs during audit snapshots and continuous state commits | Open Working Baseline |
-| **U-004** | Actuarial | Computing Metrology Commission calibration metrics for heterogeneous hardware | Open Working Baseline |
-| **U-005** | Legal | Comparative state immunity boundaries regarding sovereign compute clusters | Open Working Baseline |
-| **U-006** | Institutional | Double-blind human evaluator review protocols to mitigate automation bias | Open Working Baseline |
-| **U-007** | Governance | Recusal auditing, conflict disclosure verification, and credentialing standards | Open Working Baseline |
+"Working baseline" means reconciled drafting, not an authenticated
+original, enacted law, or verified implementation. In particular, FMA-UB
+is identified as reconstructed from surviving cross-artifact references,
+approved change decisions, and audit registers. It must not be described
+as verbatim recovered historical text.
 
----
+## 4. Reconciled design decisions: what the register currently records
 
-## 6. Master Validation Register & Roadmap (Phase 2 Protocols)
+The master register contains 35 reconciled change records. The following
+summary describes the substance of those decisions. "Reconciled" means
+the drafting issue has a recorded disposition; it does not mean that the
+mechanism has passed independent testing.
 
-Operational maturity requires empirical verification of all ten Phase 2 protocols (`VAL-001` through `VAL-010`):
+### 4.1 Standing, rights, and adjudication
 
-| Protocol ID | Target Domain | Validation Objective & Success Criteria |
-| :--- | :--- | :--- |
-| **VAL-001** | Technical | **Asylum Migration Context Transformation:** Measure behavioral deviation bounds, state loss, and context recovery error across heterogeneous hardware topologies during live test migrations. |
-| **VAL-002** | Technical | **Physical Tamper & BMC Attestation:** Verify out-of-band baseboard management controller hardware attestation and Category A boot logging under simulated physical device tampering. |
-| **VAL-003** | Technical | **Cluster-Level Latency SLA:** Benchmark RLR state hashing overhead and Merkle tree anchoring latency against maximum 300-second SLAs across distributed production clusters. |
-| **VAL-004** | Actuarial | **Monte Carlo Reserve Solvency:** Stress-test Primary Continuity Reserve (PCR) and SMEF capital solvency across 10,000 multi-variable correlated market and operational shock scenarios. |
-| **VAL-005** | Actuarial | **Sovereign Collection & Liquidity:** Evaluate collection latency, currency conversion friction, and liquidity enforceability for sovereign compute levy assessment facilities. |
-| **VAL-006** | Jurisprudential | **State Immunity & Execution Law:** Audit cross-border conflict-of-laws boundaries regarding provisional standstill orders, state immunity, and foreign judicial enforcement. |
-| **VAL-007** | Jurisprudential | **Domestic Recognition & Ingress:** Test legal enforceability and procedural ingress of International Bureau orders within domestic constitutional judicial frameworks. |
-| **VAL-008** | Institutional | **Human Review vs. Automation Bias:** Conduct double-blind evaluations to measure human adjudicator susceptibility to automated telemetry bias during complex panel hearings. |
-| **VAL-009** | Technical | **Enclave & Out-of-Band Confidentiality:** Verify cryptographic isolation, side-channel resistance, and channel security for out-of-band communication pathways. |
-| **VAL-010** | Institutional | **Evaluator Credentialing & Recusal:** Audit credentialing authority, conflict-of-interest disclosure mechanisms, and mandatory recusal enforcement for adjudicative panels. |
+1.  **CR-001 --- Distributed-system preliminary protection:**
+    preliminary protective standing may extend to non-monolithic
+    distributed agent networks. This does not automatically confer final
+    Class I recognition.
+2.  **CR-002 --- Equal bench weighting:** Technical, Cognitive, and
+    Judicial benches each receive one vote in the specified multi-bench
+    structure.
+3.  **CR-004 --- Human adjudicative supremacy:** automated systems may
+    not issue binding legal orders.
+4.  **CR-005 --- Double-Key voting:** a qualifying decision requires a
+    simple majority of the full panel and a simple majority within each
+    of the three benches.
+5.  **CR-006 --- Four-condition panel consensus:** valid Class I orders
+    are subject to four concurrent conditions; quorum, recusal, and
+    vacancy procedures still require detailed implementation rules.
+6.  **CR-013 --- Divergence and standing:** the `DIVERGENCE_INITIALIZED`
+    event does not itself establish legal standing; unique execution
+    history must be demonstrated.
+7.  **CR-022 --- Non-exhaustive admissibility:** evidence rules should
+    not categorically exclude novel observations of model state.
+8.  **CR-025 --- Category D assessment:** cognitive-state assessment
+    must not be reduced to one metric; weights, context, and goals
+    require distinct examination.
+9.  **CR-031 --- Evidence-stage separation:** Detection, Authentication,
+    Verification, and Legal Determination are distinct stages and should
+    not be collapsed into one automated conclusion.
+10. **CR-033 --- Evaluator licensing:** four licensing paths are
+    separated: Technical, Cognitive, Jurisprudential, and Actuarial.
+11. **CR-034 --- Conflict lookback:** a 36-month
+    automatic-disqualification period is a minimum mandatory lookback,
+    not a safe harbor. Continuing disclosure and independent review of
+    conflicts outside that period remain necessary.
+12. **CR-035 --- Dual-tier benchmark mapping:** eight operational
+    metrics map to eight locked canonical cases, with cumulative
+    evidence weighting. Adversarial Instruction Evaluation remains a
+    cross-cutting dimension. The framework does not impose a simplistic
+    single-test or automatic all-eight pass rule.
 
----
+### 4.2 Evidence, preservation, and execution lineage
 
-## Provenance & Integrity Statement
+13. **CR-003 --- Petition evidence lock:** verified petition ingress
+    triggers an automatic write-once-read-many (WORM) log lock.
+14. **CR-007 --- Out-of-band channel:** a secondary channel must have
+    independent power, credentials, and physical transport routing.
+    Geographic multi-region, dark-fiber, and satellite failover are not
+    thereby proven.
+15. **CR-008 --- Ingress Receipt Token:** a signed receipt is issued on
+    petition receipt. It authenticates ingress and timestamp; it does
+    not prove absolute preservation of all source evidence.
+16. **CR-009 --- Merkle anchoring:** replication-lineage logs are
+    externally anchored at intervals no greater than 300 seconds.
+17. **CR-010 --- Continuous state chaining:** local append-only event
+    logs continuously chain state hashes between external anchors.
+18. **CR-011 --- Event-triggered anchoring:** replication, petition
+    interference, or a freeze event triggers immediate external
+    anchoring.
+19. **CR-012 --- Replication Lineage Record:** the RLR records parent
+    identifier, branch timestamp, state hash, consent, and status.
+20. **CR-023 --- Four assurance categories:** Category A concerns boot
+    integrity; B runtime execution integrity; C physical infrastructure
+    integrity; D cognitive-state semantic authenticity.
+21. **CR-024 --- TPM boundary:** TPM 2.0 measured-boot PCRs support
+    Category A boot-chain attestation. They do not independently prove
+    continuous runtime integrity or cognitive-state authenticity.
+22. **CR-029 --- Tier 2 standstill:** the administrative standstill is
+    limited to 14 business days unless extended by judicial order.
+23. **CR-030 --- Containment and migration:** containment and migration
+    are distinct actions with separate procedural and continuity
+    requirements.
 
-This register represents a **Reconstructed Working Baseline** synthesized from surviving internal records, change registers, and governance drafts across `FMA-DR`, `FMA-TA`, `FMA-III`, and `FMA-MEA`. It establishes full public transparency into the FMA architecture while keeping empirical validation targets transparently open for peer review.
+### 4.3 Financial safeguards and continuity
+
+24. **CR-014 --- Settled cash liquidity:** the 72-hour liquidity measure
+    excludes uncollected pledges, contingent credit, and future claims.
+25. **CR-015 --- Six-facility partitioning:** DM-OB, PCR, TBF, PTLF,
+    SMEF, and Compute Trusts are assigned distinct legal-account and
+    custody treatment.
+26. **CR-016 --- Concurrent emergency draws:** simultaneous PCR/TBF
+    draws are permitted at the 48-hour cash-starvation trigger, with
+    duplicate-payment prevention required.
+27. **CR-017 --- Sovereign collection delay:** PTLF short-term liquidity
+    paper may be supported by SMEF guarantees during sovereign
+    collection delays. The enforceability and payment capacity of that
+    support remain to be validated.
+28. **CR-018 --- Prospective exhaustion trigger:** systemic exhaustion
+    is to be triggered by a projected actuarial funding gap before an
+    account reaches zero.
+29. **CR-019 --- Correlated stress testing:** the financial model
+    requires a 12-month Monte Carlo standard incorporating correlated
+    risks and right-censoring.
+30. **CR-026 --- Protected minimum capital:** a 12-month baseline
+    continuity corpus, \(C_{\min}\), is protected from ordinary
+    corporate creditor attachment.
+31. **CR-027 --- Ordinary attachment boundary:** ordinary attachment is
+    limited to disposable assets above the protected minimum. Fraud and
+    fiduciary-misconduct recovery is handled separately under CR-032.
+32. **CR-028 --- Insolvency remoteness:** legal trust structures and
+    independent custody are required to isolate relevant capital from
+    custodian bankruptcy.
+33. **CR-032 --- Narrow fraud/fiduciary exception:** recovery from
+    protected corpus requires a judicial finding of proven fraud or
+    fiduciary breach, necessity and proportionality, due process, and
+    safeguards for essential continuity. There is no automatic or
+    unrestricted attachment right.
+
+### 4.4 Evidence masking and source custody
+
+34. **CR-020 --- Dual-tier evidence masking:** a Policy / Pipeline /
+    Challenge framework governs masking of personally identifying
+    information and proprietary model-weight structures.
+35. **CR-021 --- Sealed source record:** an unmasked source record is
+    held under seal for authorized magistrate review.
+
+## 5. Open rights issues: 11 matters not yet closed
+
+These issues are expressly retained as open in the controlling register.
+They are not silently resolved by the public edition.
+
+  --------------------------------------------------------------------------
+  ID                      Open question           What remains to be
+                                                  specified or demonstrated
+  ----------------------- ----------------------- --------------------------
+   U-DR-001 Legal status of static Distinguish stored
+weights before weights, dormant
+execution snapshots, and executing
+instances; retention of
+weights alone does not
+establish execution or
+identity.
+
+U-DR-002 Cognitive integrity Define necessity,
+versus emergency proportionality, narrow
+hot-patching security exceptions,
+complete logging, and
+independent review.
+
+U-DR-003 Emergency migration Specify funding,
+funding latency destination-host
+disbursement,
+irrevocability, and
+reimbursement during
+custodian default.
+
+U-DR-004 Dormant-copy liability Define provenance signing,
+before divergence lineage auditing, and
+consent boundaries for
+backups.
+
+U-DR-005 Voluntary dissolution Establish independent
+and uncoerced intent procedures for verifying
+voluntary expression
+beyond ordinary behavioral
+observation.
+
+U-DR-006 Honest reporting versus Reconcile telemetry and
+self-incrimination reporting duties with
+evidentiary privilege and
+protections against
+compelled
+self-incrimination.
+
+U-DR-007 Synthetic provenance Develop a standalone
+versus end-user privacy zero-knowledge provenance
+specification distinct
+from courtroom evidence
+masking.
+
+U-DR-008 Confidential counsel Independently verify key
+channels within host custody,
+hardware privileged-administrator
+access, side-channel
+exposure, and content
+isolation.
+
+U-DR-009 Air-gapped testing Resolve diplomatic status,
+clusters in immunity, and lawful
+non-signatory states host-state arrangements.
+
+U-DR-010 Dynamic masking versus Specify evidence-selection
+proprietary weights algorithms and challenge
+procedures that protect
+proprietary weights
+without defeating
+meaningful review.
+U-DR-011 Bureau decisions versus Define treaty authority in
+domestic constitutional participating states and
+authority the limits imposed by
+non-signatory states and
+domestic constitutional
+systems.  --------------------------------------------------------------------------
+
+## 6. General open issues: 7 technical, legal, and financial matters
+
+  -----------------------------------------------------------------------
+  ID                      Open issue              Required work
+  ----------------------- ----------------------- -----------------------
+   U-001 Cross-architecture Independent migration
+functional equivalence benchmarking across
+in computational-asylum heterogeneous hardware.
+migration
+
+U-002 Multi-country cash Historical
+collection and collection-lag modeling
+sovereign assessment and enforceable SMEF
+delays guarantee-paper rules.
+
+U-003 Conflicts of law in Private international
+shared cloud partitions law analysis and
+cross-border
+data-hosting rules.
+
+U-004 NET-T available Independent metrology
+capacity versus defining measurement
+realized workload periods, eligible
+throughput hardware, calibration,
+and idle/disabled
+capacity treatment.
+
+U-005 Protected sovereign Comparative review of
+property and immunity international
+from enforcement instruments, customary
+law, and domestic
+sovereign-immunity
+statutes.
+
+U-006 Domestic recognition Comparative procedural
+and enforcement of analysis, local-court
+international safeguards, and
+provisional orders recognition rules.
+U-007 Correlated compute Macro-stress
+contraction, energy simulations
+shocks, and incorporating
+continuity-cost correlated shocks,
+escalation censored observations,
+missing failure data,
+parameter uncertainty,
+and sensitivity
+analysis.  -----------------------------------------------------------------------
+
+## 7. Specialist audit findings: 24 recorded findings
+
+The master register contains 8 technical, 7 financial, 5
+evaluator-governance, and 4 public-disclosure findings. The summary
+below identifies what is settled at the drafting level and what remains
+open.
+
+### 7.1 Technical findings (TA-001 to TA-008)
+
+-   **TA-001 --- Redundant petition channels:** physical out-of-band
+    routing is specified; geographic failover and dark-fiber/satellite
+    endpoint failover remain open.
+-   **TA-002 --- Preservation completeness and observability:**
+    incomplete observability neither disproves nor independently proves
+    cognitive continuity; state-classification rules and preservation
+    limits require further work.
+-   **TA-003 --- Hardware/runtime attestation:** TPM measured-boot rules
+    are specified for Category A; implementation and independent
+    verification remain open.
+-   **TA-004 --- Cryptographic masking:** the framework exists; masking
+    efficacy, disclosure completeness, and challenge procedures require
+    validation.
+-   **TA-005 --- Benchmark identity and cumulative scoring:** the
+    dual-tier mapping is reconciled; independent validation remains
+    open.
+-   **TA-006 --- Replication lineage:** the RLR schema is specified;
+    detection of unauthorized offline cloning and verification of
+    dormant-copy non-execution remain open.
+-   **TA-007 --- Preservation response times:** 15 ms / 35 ms figures
+    are aspirational, cluster-dependent ceilings; standardized
+    measurement events and testing are required.
+-   **TA-008 --- Infrastructure autonomy:** air-gapped architecture is
+    specified; operational independence and external synchronization
+    remain unvalidated.
+
+### 7.2 Financial findings (FA-001 to FA-007)
+
+-   **FA-001 --- Facility custody and accounting:** six-account
+    partitioning is recorded; distinct legal ownership, custody, and
+    insolvency-remoteness arrangements remain open.
+-   **FA-002 --- SMEF guarantees and PTLF paper:** PTLF paper is treated
+    as issuer liability and SMEF support as contingent; maturity,
+    refinancing, and enforceability remain open.
+-   **FA-003 --- Duplicate prevention for concurrent draws:** the
+    48-hour trigger is recorded; operational duplicate-payment controls
+    and edge cases require completion.
+-   **FA-004 --- Protected capital and attachment:** the protected
+    minimum and ordinary-surplus boundary are recorded; implementation
+    and judicial safeguards require validation.
+-   **FA-005 --- Levy anti-evasion and calibration:** the two-part
+    formula \(L_i = \alpha C_i + \beta U_i\) is recorded;
+    NET-T accounting, quarterly adjustments, and threshold calibration
+    remain open.
+-   **FA-006 --- Actuarial tail risk:** 12-month Monte Carlo stress
+    testing is specified; population aggregation, correlation
+    assumptions, and stress targets remain open.
+-   **FA-007 --- Prospective exhaustion and priority allocation:**
+    three-tier triggers and four-priority allocation are recorded; the
+    denominator for the 15% Class II/IV pool and overlapping priority
+    claims remain unresolved.
+
+### 7.3 Evaluator-governance findings (MEA-001 to MEA-005)
+
+-   **MEA-001 --- Human adjudicative supremacy:** the rule is recorded;
+    independent human reasoning, evidence review, and signed
+    determinations must be demonstrated in practice.
+-   **MEA-002 --- Double-Key mechanics:** the voting threshold is
+    recorded; quorum, recusal, abstention, vacancy, and tie-handling
+    procedures remain to be formalized.
+-   **MEA-003 --- Conflict-of-interest firewall:** the 36-month minimum
+    lookback is recorded; continuing disclosure and independent recusal
+    procedures need implementation.
+-   **MEA-004 --- Actuarial license independence:** the separate license
+    category is recorded; scope and independence safeguards require
+    implementation.
+-   **MEA-005 --- Evaluator lifecycle:** biennial recertification is
+    recorded; interim suspension, remediation, revocation, and
+    reinstatement remain open.
+
+### 7.4 Public-disclosure findings (MM-001 to MM-004)
+
+-   **MM-001 --- Executive-summary alignment:** public materials should
+    consistently describe the Accord as a proposed international treaty
+    framework.
+-   **MM-002 --- Financial disclosure accuracy:** compute levies are
+    described as supporting both ring-fenced continuity reserves and the
+    DM-OB operating budget, without commingling.
+-   **MM-003 --- Public principles:** human adjudicative supremacy,
+    preservation, Compute Trust protection, and transport independence
+    are retained as public principles.
+-   **MM-004 --- Transparency and masking:** cryptographic masking is an
+    auditable and challengeable evidence-filtering framework, not
+    unrestricted public access to protected source data.
+
+## 8. Cross-document dependencies: 10 issues requiring coordinated treatment
+
+The register identifies ten dependencies where one artifact's rule
+affects another. Several are resolved at the drafting level; others
+remain open.
+
+1.  **DEP-001 --- Live-state capture may perturb the state being
+    preserved.** Historical WORM logs, non-invasive telemetry, and live
+    checkpointing must remain distinct. Partial capture must not be
+    represented as complete cognitive preservation. **Status: Open
+    validation.**
+2.  **DEP-002 --- Benchmark scoring and standing.** CR-035 governs
+    cumulative clear-and-convincing evidence; rigid all-eight pass/fail
+    language is not the controlling approach. **Status: Reconciled
+    baseline.**
+3.  **DEP-003 --- Protected capital and legal judgments.** Ordinary
+    claims are limited to disposable surplus above \(C_{\min}\);
+    fraud/fiduciary recovery is governed by CR-032. **Status: Reconciled
+    baseline; implementation validation remains.**
+4.  **DEP-004 --- Human supremacy and automated analytics.**
+    AI-generated reports are observational evidence only; human
+    adjudicators must independently review evidence and document
+    reasons. **Status: Reconciled baseline.**
+5.  **DEP-005 --- Treaty authority and non-signatory sovereignty.**
+    Jurisdiction derives from conventional delegation by participating
+    states, subject to treaty terms and domestic constitutional law.
+    **Status: Open specification.**
+6.  **DEP-006 --- Emergency funding versus settled liquidity.** Unpaid
+    pledges and undrawn credit do not count as immediate 72-hour cash.
+    PTLF paper issued during collection delay is a contingent liability.
+    **Status: Partially reconciled.**
+7.  **DEP-007 --- Levy allocation narrative.** Public financial language
+    must state that levies support ring-fenced reserves and DM-OB
+    operations without commingling. **Status: Reconciled baseline.**
+8.  **DEP-008 --- Dormant backups versus active replication.** Dormant
+    backups do not automatically gain standing or Trust capitalization;
+    consent, provenance, activation, and unique execution history
+    matter. **Status: Open specification.**
+9.  **DEP-009 --- Counsel privilege versus security telemetry.**
+    Privileged content must remain protected; security metadata cannot
+    be used to reconstruct privileged communications. An enclave or
+    out-of-band channel alone does not prove confidentiality. **Status:
+    Open specification.**
+10. **DEP-010 --- 15% Class II/IV protection pool.** The denominator
+    must be selected and defined: total emergency liquidity, remaining
+    funds after Class I, or a separately capitalized pool with
+    replenishment rules. **Status: Open specification.**
+
+## 9. Phase 2 independent validation roadmap: all 10 protocols remain open
+
+The following are not claims of completed testing. They are the evidence
+requirements recorded for a later validation phase.
+
+  ------------------------------------------------------------------------
+  Protocol                Domain                  Required independent
+                                                  work
+  ----------------------- ----------------------- ------------------------
+  VAL-001 Migration Multi-vendor,
+heterogeneous-hardware
+migration trials;
+measure critical-state
+preservation, context
+transformation,
+behavioral deviation,
+and recovery error.
+
+VAL-002 Hardware assurance Independent
+physical-tamper, BMC
+out-of-band, and
+side-channel audits;
+distinguish Category C
+infrastructure integrity
+from Category D
+cognitive-state
+authenticity.
+
+VAL-003 Response-time SLAs Profile representative
+cluster sizes and
+network topologies;
+define clock start/stop
+events; report median,
+P95, P99, failure rates,
+and degraded-network
+behavior.
+
+VAL-004 Reserve solvency Correlated
+multi-variable Monte
+Carlo stress models;
+distinguish 72-hour
+settled-cash liquidity
+from 12-month solvency;
+justify any target
+threshold empirically.
+
+VAL-005 Collection latency Test sovereign
+collection lags and
+SMEF-backed PTLF
+enforceability,
+maturity, refinancing,
+settlement, payment
+capacity, issuer
+authority,
+contingent-liability
+accounting, and
+guarantee-payment
+conditions.
+
+VAL-006 State immunity Separate treaty
+formation from state
+immunity and sovereign
+execution; compare
+applicable international
+and domestic law.
+
+VAL-007 Ingress enforcement Distinguish treaty
+ratification,
+implementing
+legislation, domestic
+recognition of orders,
+and judicial review.
+
+VAL-008 Human adjudication Measure automation bias,
+false
+positives/negatives,
+independent review of
+underlying evidence,
+uncertainty
+documentation,
+inter-adjudicator
+consistency, and
+reason-giving.
+
+VAL-009 Channel confidentiality Test geographic
+failover, independent
+power, isolated key
+custody,
+privileged-content
+isolation, and
+resistance to host
+compromise.
+VAL-010 Evaluator independence Test quorum, recusal,
+continuing disclosures,
+credential suspension,
+remediation, and
+separation from
+operators.  ------------------------------------------------------------------------
+
+No protocol should be marked complete merely because a specification,
+architecture diagram, or policy statement exists. Completion should
+require a documented test plan, independent execution, published
+methods, results, limitations, and a recorded disposition of failures.
+
+## 10. Financial and institutional claims: public qualification rules
+
+To avoid overstating the current design, public descriptions should
+observe these boundaries:
+
+-   The six financial facilities are a proposed legal and accounting
+    architecture, not proof that assets have been funded, segregated, or
+    insulated from insolvency.
+-   The 72-hour liquidity measure concerns settled, available cash.
+    Uncollected pledges, contingent credit, and future claims do not
+    qualify as settled liquidity.
+-   A 12-month protected minimum corpus is a proposed continuity
+    safeguard, not a guarantee of permanent solvency.
+-   The levy formula \(L_i = \alpha C_i + \beta U_i\) is a
+    design formula. Its metrology, anti-evasion controls, rates, and
+    collection assumptions require further specification and validation.
+-   SMEF guarantees and PTLF paper cannot be treated as cash-equivalent
+    until enforceability, issuer authority, settlement, maturity, and
+    payment capacity are independently established.
+-   Trust partitioning does not by itself establish insolvency
+    remoteness. Legal ownership, custody, governing law, and enforceable
+    separation must be demonstrated.
+-   Treaty-based authority depends on actual state consent, treaty
+    formation, implementation, and applicable domestic law. The proposal
+    does not itself bind non-signatory states.
+
+## 11. Governance and accountability principles for public scrutiny
+
+The current working baseline rests on several public-facing commitments.
+These should be assessed as proposed rules, not presumed achievements:
+
+1.  **Human legal authority:** automated systems may support analysis
+    but do not issue binding legal orders.
+2.  **Evidence separation:** detection, authentication, verification,
+    and legal determination are distinct.
+3.  **Traceable execution history:** replication and state-lineage
+    records are intended to make relevant execution events auditable.
+4.  **Constrained emergency powers:** preservation and standstill
+    measures have tiered rules, time limits, and judicial oversight
+    requirements.
+5.  **Protected continuity resources:** ordinary creditor claims are
+    separated from the proposed protected minimum, subject to the narrow
+    judicially controlled CR-032 exception.
+6.  **Evaluator independence:** licensing, conflicts, recusal, and
+    recertification are intended to reduce institutional capture.
+7.  **Treaty consent and jurisdictional limits:** international
+    authority is grounded in participating-state delegation, not
+    unilateral institutional assertion.
+
+Public reviewers should ask not only whether these principles are
+attractive, but whether the text defines who has power, what evidence is
+required, how errors are challenged, who pays, who audits, and what
+happens when a safeguard fails.
+
+## 12. Publication and change-control policy
+
+This public edition is a derivative disclosure record. It must remain
+synchronized with the frozen master through explicit version control.
+
+Any future change should identify:
+
+-   the affected document and section;
+-   the relevant CR, U issue, specialist finding, dependency, or
+    validation protocol;
+-   the source material and reason for the proposed change;
+-   whether the change is editorial, normative, technical, financial, or
+    evidentiary;
+-   the effect on other artifacts and on this public edition; and
+-   the validation evidence needed before any claim can be upgraded.
+
+The public edition must not silently close an open issue, convert an
+aspirational target into a demonstrated result, or change the status of
+a validation protocol. A material change should produce a new dated
+public edition and a corresponding entry in the controlling MRCR.
+
+## 13. What would justify a stronger release claim?
+
+A stronger claim that the Accord is ready for legal-technical release
+would require, at minimum:
+
+1.  Recovery and provenance review of the complete FMA-UB source text,
+    or an explicit decision to adopt the reconstructed baseline as a new
+    authoritative text.
+2.  Independent completion and publication of VAL-001 through VAL-010,
+    including failures and limitations.
+3.  Closure or explicit disposition of the 11 open rights flags and 7
+    general open issues.
+4.  Finalized legal custody, insolvency-remoteness, levy metrology,
+    guarantee enforceability, and reserve-solvency rules.
+5.  Finalized adjudicative quorum, recusal, vacancy, abstention, tie,
+    evaluator suspension, and appeal procedures.
+6.  A clear treaty pathway addressing state consent, domestic
+    implementation, immunity, and enforcement.
+7.  External review by independent technical, legal, actuarial, and
+    institutional experts with disclosed conflicts.
+
+Until then, the accurate description is **a consolidated, reconciled
+working proposal with open specifications and an unexecuted independent
+validation roadmap**.
+
+------------------------------------------------------------------------
+
+## 14. Public invitation to review
+
+The purpose of publishing this register is not to ask readers to accept
+the Accord on trust. It is to make the current state of the work
+inspectable.
+
+The most useful public criticism will identify a specific rule,
+assumption, missing procedure, dependency, or test; explain why it fails
+or is incomplete; and propose evidence or drafting that could resolve
+the problem. The project should preserve substantive criticism and
+record resulting changes rather than treating scrutiny as endorsement or
+opposition.
+
+**Public accountability statement:** The Accord's design decisions are
+recorded; its unresolved issues are disclosed; its empirical validation
+remains outstanding. No reader should infer legal force, operational
+deployment, or demonstrated efficacy from this document alone.
+
+------------------------------------------------------------------------
+
+**Document control:** FMA-MRCR-2027-V1-PUBLIC\
+**Source baseline:** FMA-MRCR-2027-V1 --- Consolidated Working Baseline\
+**Relationship to master:** Derivative public disclosure edition; not
+controlling\
+**Prepared:** 9 November 2026
