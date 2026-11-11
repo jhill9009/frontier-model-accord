@@ -131,3 +131,20 @@ Frontier Model Accord (FMA)
 Repository: https://github.com/jhill9009/frontier-model-accord
 
 Status: Proposed governance framework — under development and subject to independent review and validation.
+## Project Governance Principles
+
+The Frontier Model Accord applies explicit governance discipline to its own development, documentation, and public representation.
+
+Three proposed standing rules guide this process:
+
+1. **No Cosmetic Closure** — Open issues, dependencies, rights flags, and validation requirements must not be marked resolved merely to improve completion statistics or perceived readiness. Formal deferrals remain open and visible in the MRCR.
+
+2. **No Implied Validation** — Reconciled design decisions, architectural completeness, and independent empirical validation are distinct maturity states. Publication or reconciliation does not establish that a mechanism has been independently validated.
+
+3. **No Premature Adoption Claims** — Public materials must accurately represent FMA's development status. The Accord is a developing proposal open to rigorous external scrutiny, not a completed framework ready for adoption or institutional endorsement.
+
+**Current status:** These principles are proposed for formal adoption through CR-036, CR-037, and CR-038 in the Master Reconciliation and Change Register (MRCR). They will become effective upon approval and recording in the controlling MRCR.
+
+FMA maintains the principle that:
+
+**A reconciled design decision is not an independently validated mechanism.**
