@@ -52,6 +52,55 @@ This edition deliberately distinguishes:
 A reconciled drafting decision is not the same thing as independent
 validation, legal approval, or proof of successful implementation.
 
+## Project Governance Principles (Standing Rules)
+
+**Status:** Proposed  
+**Associated change requests:** CR-036, CR-037, CR-038 (pending formal review and recording in the controlling MRCR)  
+**Cross-document dependency:** DEP-011 (provisional)
+
+These principles are proposed standing rules of the Frontier Model Accord. They govern the interpretation, maintenance, and public representation of all FMA artifacts. Once adopted, they take precedence over informal practice and may be amended only through a recorded change request in the Master Reconciliation and Change Register (MRCR).
+
+**Purpose**  
+The purpose of these rules is to preserve the integrity of the development process, prevent premature claims, and ensure that the public and internal record accurately reflects the true maturity of the framework.
+
+### Standing Rule 1 — No Cosmetic Closure
+
+An open issue, rights flag, dependency, specialist finding, or validation protocol may not be marked closed, resolved, or complete solely to improve completion statistics, presentation appearance, or perceived readiness.
+
+An issue may be marked substantively resolved only when its resolution is recorded with supporting rationale, affected artifacts, and any residual conditions.
+
+Alternatively, an issue may be formally deferred, with the deferral rationale, conditions for reopening, and continued visibility in the MRCR explicitly documented.
+
+A deferred item shall retain its open status and original identifier. Deferral changes its management status, not its substantive resolution status. A formal deferral remains an open item for accountability purposes until the stated conditions are met.
+
+### Standing Rule 2 — No Implied Validation
+
+The following statuses are distinct and must not be collapsed or elided in any internal or public material:
+
+- **Reconciled design decision** — a drafting choice or rule recorded as resolved through the change-control process.
+- **Architectural completeness** — a sufficiently developed and mutually reconciled documentary architecture consistent with the controlling MRCR; this does not establish operational feasibility or independent validation.
+- **Independent empirical validation** — demonstration through defined test methods, independent evaluation, and evidence that a mechanism performs as claimed.
+
+A reconciled decision or the publication of an artifact does not constitute, and must not be represented as, independent validation. All Phase 2 validation protocols remain open until independently completed and recorded.
+
+### Standing Rule 3 — No Premature Adoption Claims
+
+Public materials, summaries, presentations, and communications must accurately describe the current development stage of the Frontier Model Accord.
+
+Claims or implications that the framework is ready for formal adoption, institutional endorsement, treaty negotiation, operational deployment, or legal effect are prohibited until the relevant completion, reconciliation, and validation milestones have been met and recorded in the MRCR.
+
+This rule does not prohibit exploratory discussions, technical exchange, or invitations for rigorous external scrutiny with researchers, policymakers, or prospective reviewers, provided such engagement does not imply readiness for adoption or endorsement.
+
+### Implementation Notes
+
+1. These rules shall be recorded as formal entries in the controlling MRCR under the identifiers CR-036, CR-037, and CR-038.
+2. A concise summary appears in the repository README.
+3. All future change requests, public editions, and summary documents must remain consistent with these rules.
+4. A cross-document dependency (DEP-011) will link these rules to the README, this Public Accountability Edition, and subsequent public FMA documents.
+5. Any amendment requires an explicit change request, recorded rationale, and updated cross-document impact assessment.
+
+**Current status reminder:**  
+These principles remain **proposed**. They become effective only upon formal approval and recording of CR-036, CR-037, and CR-038 in the controlling MRCR.
 ## 2. Executive accountability snapshot
 
 The consolidated master register tracks seven principal Accord artifacts
