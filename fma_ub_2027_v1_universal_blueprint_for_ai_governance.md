@@ -5,7 +5,7 @@
 **Document Identifier:** FMA-UB-2027-V1  
 **Repository:** FMA-REPOSITORY-1.0  
 **Classification:** Reconstructed Working Baseline  
-**Legal-Technical Status:** Operative architectural specification; synthesized from cross-artifact dependencies, change requests, and audit registers across FMA-DR, FMA-TA, FMA-III, FMA-MEA, and FMA-MRCR.  
+**Legal-Technical Status:**"Reconstructed architectural working baseline; proposed mechanisms subject to further specification and validation."synthesized from cross-artifact dependencies, change requests, and audit registers across FMA-DR, FMA-TA, FMA-III, FMA-MEA, and FMA-MRCR.  
 
 **Provenance & Integrity Note:** **Reconstructed.** This document recreates the institutional architecture and layer structure of the Universal Blueprint from surviving cross-artifact references, approved change requests, and verified governance decisions. It is not authenticated verbatim historical text, and its operational mechanisms remain subject to the Phase 2 empirical validation roadmap (`VAL-001`–`VAL-010`).
 
