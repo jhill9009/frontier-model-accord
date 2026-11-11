@@ -24,7 +24,7 @@ cross-document dependencies, and independent validation requirements
 available for public examination.
 
 It is derived from the consolidated internal Master Reconciliation &
-Change Register (FMA-MRCR-2027-V1). It is a **separate disclosure
+Change Register (FMA-MRCR-2027-V1.1). It is a **separate disclosure
 document**. It does not amend, replace, or become the controlling change
 register.
 
@@ -127,9 +127,10 @@ system.
 The three proposed change requests and the provisional dependency are recorded for accountability and tracking. They have not been formally approved, do not alter the count of reconciled change requests or established dependencies, and do not constitute substantive resolution of any open item.
 
 ## 3. The seven principal Accord artifacts
+
 These are the seven principal artifacts tracked by the Accord's master register. This table describes the framework's artifact architecture and working status; it does not imply that all seven artifacts have been completed or published in the public repository.
------------------------------------------------------------------------
-  | Artifact | Function | Publicly relevant status and qualification |
+
+| Artifact | Function | Publicly relevant status and qualification |
 |---|---|---|
 | **FMA-DR — Declaration of Digital Rights & Obligations** | Rights, standing, due process, duties, and legal boundaries. | Reconciled working baseline; 11 rights-related issues remain open. |
 | **FMA-UB — Universal Blueprint for AI Governance** | Institutional architecture linking rights, technical standards, finance, and evaluator governance. | Reconstructed six-layer working baseline. Full verbatim historical recovery remains outstanding; Phase 2 validation is also outstanding. |
@@ -137,7 +138,7 @@ These are the seven principal artifacts tracked by the Accord's master register.
 | **FMA-III — Financial Safeguards & Continuity Protocol** | Capital partitioning, compute levy, liquidity facilities, continuity funding, and allocation rules. | Reconciled working baseline; legal custody, actuarial assumptions, collection latency, and stress performance remain open. |
 | **FMA-MEA — Bureau Academy & Evaluator Certification Framework** | Human adjudication, evaluator licensing, independence, conflicts, and recertification. | Reconciled working baseline; several governance procedures require final specification and validation. |
 | **FMA-MM — Executive Manifesto & Public Press Briefing** | Public explanation of principles and the proposed framework. | Public-facing working baseline; claims must remain consistent with the qualifications in this report. |
-| **FMA-MRCR — Master Reconciliation & Change Register** | Change control, issue tracking, audit findings, dependencies, and validation roadmap. | Consolidated working baseline; the authoritative administrative control index for this recovery stage. |  -----------------------------------------------------------------------
+| **FMA-MRCR — Master Reconciliation & Change Register** | Change control, issue tracking, audit findings, dependencies, and validation roadmap. | Consolidated working baseline; the authoritative administrative control index for this recovery stage. |  
 
 ### Provenance warning
 
@@ -360,9 +361,6 @@ The following 11 rights-related issues remain open in the controlling register. 
 ## 6. General open issues: 7 technical, legal,
 and financial matters
 
-  -----------------------------------------------------------------------
-  ID                      Open issue              Required work
-  ----------------------- ----------------------- -----------------------
 | ID | Open issue | Required work |
 |---|---|---|
 | U-001 | Cross-architecture functional equivalence in computational-asylum migration | Independent migration benchmarking across heterogeneous hardware. |
@@ -371,7 +369,7 @@ and financial matters
 | U-004 | NET-T available capacity versus realized workload throughput | Independent metrology defining measurement periods, eligible hardware, calibration, and idle/disabled capacity treatment. |
 | U-005 | Protected sovereign property and immunity from enforcement | Comparative review of international instruments, customary law, and domestic sovereign-immunity statutes. |
 | U-006 | Domestic recognition and enforcement of international provisional orders | Comparative procedural analysis, local-court safeguards, and recognition rules. |
-| U-007 | Correlated compute contraction, energy shocks, and continuity-cost escalation | Macro-stress simulations incorporating correlated shocks, censored observations, missing failure data, parameter uncertainty, and sensitivity analysis. |-----------------------------------------------------------------------
+| U-007 | Correlated compute contraction, energy shocks, and continuity-cost escalation | Macro-stress simulations incorporating correlated shocks, censored observations, missing failure data, parameter uncertainty, and sensitivity analysis. |
 
 ## 7. Specialist audit findings: 24 recorded findings
 
@@ -470,11 +468,8 @@ open.
 ## 8. Cross-document dependencies: 10 established and 1 provisional
 
 The register identifies ten established dependencies (DEP-001–DEP-010) and one provisional dependency (DEP-011). The established dependencies concern interactions among existing design decisions and open specifications. DEP-011 provisionally tracks consistency across the proposed Project Governance Principles and the relevant FMA documents. Its provisional status does not imply approval of CR-036, CR-037, or CR-038.
-1. **DEP-001 --- Live-state capture may perturb the state being preserved.**             Historical WORM logs, non-invasive telemetry, and live checkpointing must remain     distinct. Partial capture must not be represented as complete cognitive              preservation. **Status: Open validation.**Historical WORM logs, non-invasive         telemetry, and live
-    checkpointing must remain distinct. Partial capture must not be
-    represented as complete cognitive preservation. **Status: Open
-    validation.**
-2.  **DEP-002 --- Benchmark scoring and standing.** CR-035 governs
+1.  **DEP-001 --- Live-state capture may perturb the state being preserved.**            Historical WORM logs, non-invasive telemetry, and live checkpointing must remain     distinct. Partial capture must not be represented as complete cognitive              preservation. **Status: Open validation.
+2.  **2.  **DEP-002 --- Benchmark scoring and standing.** CR-035 governs
     cumulative clear-and-convincing evidence; rigid all-eight pass/fail
     language is not the controlling approach. **Status: Reconciled
     baseline.**
@@ -543,10 +538,6 @@ The dependency requires alignment of:
 The following are not claims of completed testing. They are the evidence
 requirements recorded for a later validation phase.
 
-  ------------------------------------------------------------------------
-  Protocol                Domain                  Required independent
-                                                  work
-  ----------------------- ----------------------- ------------------------
 | Protocol | Domain | Required independent work |
 |---|---|---|
 | VAL-001 | Migration | Multi-vendor, heterogeneous-hardware migration trials; measure critical-state preservation, context transformation, behavioral deviation, and recovery error. |
@@ -558,7 +549,7 @@ requirements recorded for a later validation phase.
 | VAL-007 | Ingress enforcement | Distinguish treaty ratification, implementing legislation, domestic recognition of orders, and judicial review. |
 | VAL-008 | Human adjudication | Measure automation bias, false positives/negatives, independent review of underlying evidence, uncertainty documentation, inter-adjudicator consistency, and reason-giving. |
 | VAL-009 | Channel confidentiality | Test geographic failover, independent power, isolated key custody, privileged-content isolation, and resistance to host compromise. |
-| VAL-010 | Evaluator independence | Test quorum, recusal, continuing disclosures, credential suspension, remediation, and separation from operators. |------------------------------------------------------------------------
+| VAL-010 | Evaluator independence | Test quorum, recusal, continuing disclosures, credential suspension, remediation, and separation from operators. |
 
 No protocol should be marked complete merely because a specification,
 architecture diagram, or policy statement exists. Completion should
