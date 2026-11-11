@@ -55,7 +55,9 @@ validation, legal approval, or proof of successful implementation.
 ## Project Governance Principles (Standing Rules)
 
 **Status:** Proposed  
- **Associated change requests:** CR-036, CR-037, and CR-038 (recorded in the controlling MRCR as proposed; pending formal review and approval).
+
+**Associated change requests:** CR-036, CR-037, and CR-038 (recorded in the controlling MRCR as proposed; pending formal review and approval).
+
 **Cross-document dependency:** DEP-011 (provisional)
 
 These principles are proposed standing rules of the Frontier Model Accord. If formally adopted, they will govern the interpretation, maintenance, and public representation of all FMA artifacts. Once adopted, they will take precedence over informal practice and may be amended only through a recorded change request in the Master Reconciliation and Change Register (MRCR).
@@ -528,7 +530,7 @@ Privileged content must remain protected; security metadata cannot be used to re
 
 The denominator must be selected and defined: total emergency liquidity, remaining funds after Class I, or a separately capitalized pool with replenishment rules.
 
-**Status: provisional specification.**
+**Status: open specification.**
 
 **DEP-011 — Cross-Document Governance Consistency**
 
