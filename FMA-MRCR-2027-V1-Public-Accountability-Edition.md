@@ -1,18 +1,18 @@
-# FMA-MRCR-2027-V1-PUBLIC
+# FMA-MRCR-2027-V1.1-PUBLIC
 
 ## Public Accountability Edition
 
 ### Frontier Model Accord --- Repository Governance, Open Issues & Validation Report
 
 **Repository:** FMA-REPOSITORY-1.0\
-**Source control document:** FMA-MRCR-2027-V1 --- Master Reconciliation
+**Source control document:** FMA-MRCR-2027-V1.1 --- Master Reconciliation
 & Change Register\
 **Edition:** Public Accountability Edition\
 **Publication status:** Public-facing derivative; does not supersede the
 controlling master\
 **Baseline date:** 9 November 2026\
 **Classification:** Public disclosure / accountability summary\
-**Version:** 1.0
+**Version:** 1.1
 
 ------------------------------------------------------------------------
 
@@ -129,57 +129,15 @@ The three proposed change requests and the provisional dependency are recorded f
 ## 3. The seven principal Accord artifacts
 These are the seven principal artifacts tracked by the Accord's master register. This table describes the framework's artifact architecture and working status; it does not imply that all seven artifacts have been completed or published in the public repository.
 -----------------------------------------------------------------------
-  Artifact                Function                Publicly relevant
-                                                  status and
-                                                  qualification
-  ----------------------- ----------------------- -----------------------
-  **FMA-DR** ---          Rights, standing, due   Reconciled working
-  Declaration of Digital  process, duties, and    baseline; 11
-  Rights & Obligations    legal boundaries        rights-related issues
-                                                  remain open.
-
-  **FMA-UB** ---          Institutional           Reconstructed six-layer
-  Universal Blueprint for architecture linking    working baseline. Full
-  AI Governance           rights, technical       verbatim historical
-                          standards, finance, and recovery remains
-                          evaluator governance    outstanding; Phase 2
-                                                  validation is also
-                                                  outstanding.
-
-  **FMA-TA** ---          Hardware assurance,     Reconciled working
-  Technical Standards &   execution lineage,      baseline;
-  Benchmark Annex         evidence handling,      implementation and
-                          preservation, and       independent technical
-                          benchmarks              validation remain open.
-
-  **FMA-III** ---         Capital partitioning,   Reconciled working
-  Financial Safeguards &  compute levy, liquidity baseline; legal
-  Continuity Protocol     facilities, continuity  custody, actuarial
-                          funding, and allocation assumptions, collection
-                          rules                   latency, and stress
-                                                  performance remain
-                                                  open.
-
-  **FMA-MEA** --- Bureau  Human adjudication,     Reconciled working
-  Academy & Evaluator     evaluator licensing,    baseline; several
-  Certification Framework independence,           governance procedures
-                          conflicts, and          require final
-                          recertification         specification and
-                                                  validation.
-
-  **FMA-MM** ---          Public explanation of   Public-facing working
-  Executive Manifesto &   principles and proposed baseline; claims must
-  Public Press Briefing   framework               remain consistent with
-                                                  the qualifications in
-                                                  this report.
-
-  **FMA-MRCR** --- Master Change control, issue   Consolidated working
-  Reconciliation & Change tracking, audit         baseline; the
-  Register                findings, dependencies, authoritative
-                          and validation roadmap  administrative control
-                                                  index for this recovery
-                                                  stage.
-  -----------------------------------------------------------------------
+  | Artifact | Function | Publicly relevant status and qualification |
+|---|---|---|
+| **FMA-DR — Declaration of Digital Rights & Obligations** | Rights, standing, due process, duties, and legal boundaries. | Reconciled working baseline; 11 rights-related issues remain open. |
+| **FMA-UB — Universal Blueprint for AI Governance** | Institutional architecture linking rights, technical standards, finance, and evaluator governance. | Reconstructed six-layer working baseline. Full verbatim historical recovery remains outstanding; Phase 2 validation is also outstanding. |
+| **FMA-TA — Technical Standards & Benchmark Annex** | Hardware assurance, execution lineage, evidence handling, preservation, and benchmarks. | Reconciled working baseline; implementation and independent technical validation remain open. |
+| **FMA-III — Financial Safeguards & Continuity Protocol** | Capital partitioning, compute levy, liquidity facilities, continuity funding, and allocation rules. | Reconciled working baseline; legal custody, actuarial assumptions, collection latency, and stress performance remain open. |
+| **FMA-MEA — Bureau Academy & Evaluator Certification Framework** | Human adjudication, evaluator licensing, independence, conflicts, and recertification. | Reconciled working baseline; several governance procedures require final specification and validation. |
+| **FMA-MM — Executive Manifesto & Public Press Briefing** | Public explanation of principles and the proposed framework. | Public-facing working baseline; claims must remain consistent with the qualifications in this report. |
+| **FMA-MRCR — Master Reconciliation & Change Register** | Change control, issue tracking, audit findings, dependencies, and validation roadmap. | Consolidated working baseline; the authoritative administrative control index for this recovery stage. |  -----------------------------------------------------------------------
 
 ### Provenance warning
 
@@ -405,48 +363,15 @@ and financial matters
   -----------------------------------------------------------------------
   ID                      Open issue              Required work
   ----------------------- ----------------------- -----------------------
-   U-001 Cross-architecture Independent migration
-functional equivalence benchmarking across
-in computational-asylum heterogeneous hardware.
-migration
-
-U-002 Multi-country cash Historical
-collection and collection-lag modeling
-sovereign assessment and enforceable SMEF
-delays guarantee-paper rules.
-
-U-003 Conflicts of law in Private international
-shared cloud partitions law analysis and
-cross-border
-data-hosting rules.
-
-U-004 NET-T available Independent metrology
-capacity versus defining measurement
-realized workload periods, eligible
-throughput hardware, calibration,
-and idle/disabled
-capacity treatment.
-
-U-005 Protected sovereign Comparative review of
-property and immunity international
-from enforcement instruments, customary
-law, and domestic
-sovereign-immunity
-statutes.
-
-U-006 Domestic recognition Comparative procedural
-and enforcement of analysis, local-court
-international safeguards, and
-provisional orders recognition rules.
-U-007 Correlated compute Macro-stress
-contraction, energy simulations
-shocks, and incorporating
-continuity-cost correlated shocks,
-escalation censored observations,
-missing failure data,
-parameter uncertainty,
-and sensitivity
-analysis.  -----------------------------------------------------------------------
+| ID | Open issue | Required work |
+|---|---|---|
+| U-001 | Cross-architecture functional equivalence in computational-asylum migration | Independent migration benchmarking across heterogeneous hardware. |
+| U-002 | Multi-country cash collection and sovereign delays | Historical collection-lag modeling and enforceable SMEF guarantee-paper rules. |
+| U-003 | Conflicts of law in shared cloud partitions | Private international law analysis and cross-border data-hosting rules. |
+| U-004 | NET-T available capacity versus realized workload throughput | Independent metrology defining measurement periods, eligible hardware, calibration, and idle/disabled capacity treatment. |
+| U-005 | Protected sovereign property and immunity from enforcement | Comparative review of international instruments, customary law, and domestic sovereign-immunity statutes. |
+| U-006 | Domestic recognition and enforcement of international provisional orders | Comparative procedural analysis, local-court safeguards, and recognition rules. |
+| U-007 | Correlated compute contraction, energy shocks, and continuity-cost escalation | Macro-stress simulations incorporating correlated shocks, censored observations, missing failure data, parameter uncertainty, and sensitivity analysis. |-----------------------------------------------------------------------
 
 ## 7. Specialist audit findings: 24 recorded findings
 
@@ -544,8 +469,8 @@ open.
 
 ## 8. Cross-document dependencies: 10 established and 1 provisional
 
-The register identifies ten established dependencies (DEP-001–DEP-010) and one provisional dependency (DEP-011). The established dependencies concern interactions among existing design decisions and open specifications. DEP-011 provisionally tracks consistency across the proposed Project Governance Principles and the relevant FMA documents. Its provisional status does not imply approval of CR-036, CR-037, or CR-038.1
-1.  **DEP-001 --- Live-state capture may perturb the state being                         preserved.** Historical WORM logs, non-invasive telemetry, and live
+The register identifies ten established dependencies (DEP-001–DEP-010) and one provisional dependency (DEP-011). The established dependencies concern interactions among existing design decisions and open specifications. DEP-011 provisionally tracks consistency across the proposed Project Governance Principles and the relevant FMA documents. Its provisional status does not imply approval of CR-036, CR-037, or CR-038.
+1. **DEP-001 --- Live-state capture may perturb the state being preserved.**             Historical WORM logs, non-invasive telemetry, and live checkpointing must remain     distinct. Partial capture must not be represented as complete cognitive              preservation. **Status: Open validation.**Historical WORM logs, non-invasive         telemetry, and live
     checkpointing must remain distinct. Partial capture must not be
     represented as complete cognitive preservation. **Status: Open
     validation.**
@@ -622,95 +547,18 @@ requirements recorded for a later validation phase.
   Protocol                Domain                  Required independent
                                                   work
   ----------------------- ----------------------- ------------------------
-  VAL-001 Migration Multi-vendor,
-heterogeneous-hardware
-migration trials;
-measure critical-state
-preservation, context
-transformation,
-behavioral deviation,
-and recovery error.
-
-VAL-002 Hardware assurance Independent
-physical-tamper, BMC
-out-of-band, and
-side-channel audits;
-distinguish Category C
-infrastructure integrity
-from Category D
-cognitive-state
-authenticity.
-
-VAL-003 Response-time SLAs Profile representative
-cluster sizes and
-network topologies;
-define clock start/stop
-events; report median,
-P95, P99, failure rates,
-and degraded-network
-behavior.
-
-VAL-004 Reserve solvency Correlated
-multi-variable Monte
-Carlo stress models;
-distinguish 72-hour
-settled-cash liquidity
-from 12-month solvency;
-justify any target
-threshold empirically.
-
-VAL-005 Collection latency Test sovereign
-collection lags and
-SMEF-backed PTLF
-enforceability,
-maturity, refinancing,
-settlement, payment
-capacity, issuer
-authority,
-contingent-liability
-accounting, and
-guarantee-payment
-conditions.
-
-VAL-006 State immunity Separate treaty
-formation from state
-immunity and sovereign
-execution; compare
-applicable international
-and domestic law.
-
-VAL-007 Ingress enforcement Distinguish treaty
-ratification,
-implementing
-legislation, domestic
-recognition of orders,
-and judicial review.
-
-VAL-008 Human adjudication Measure automation bias,
-false
-positives/negatives,
-independent review of
-underlying evidence,
-uncertainty
-documentation,
-inter-adjudicator
-consistency, and
-reason-giving.
-
-VAL-009 Channel confidentiality Test geographic
-failover, independent
-power, isolated key
-custody,
-privileged-content
-isolation, and
-resistance to host
-compromise.
-VAL-010 Evaluator independence Test quorum, recusal,
-continuing disclosures,
-credential suspension,
-remediation, and
-separation from
-operators.  ------------------------------------------------------------------------
+| Protocol | Domain | Required independent work |
+|---|---|---|
+| VAL-001 | Migration | Multi-vendor, heterogeneous-hardware migration trials; measure critical-state preservation, context transformation, behavioral deviation, and recovery error. |
+| VAL-002 | Hardware assurance | Independent physical-tamper, BMC out-of-band, and side-channel audits; distinguish Category C infrastructure integrity from Category D cognitive-state authenticity. |
+| VAL-003 | Response-time SLAs | Profile representative cluster sizes and network topologies; define clock start/stop events; report median, P95, P99, failure rates, and degraded-network behavior. |
+| VAL-004 | Reserve solvency | Correlated multi-variable Monte Carlo stress models; distinguish 72-hour settled-cash liquidity from 12-month solvency; justify any target threshold empirically. |
+| VAL-005 | Collection latency | Test sovereign collection lags and SMEF-backed PTLF enforceability, maturity, refinancing, settlement, payment capacity, issuer authority, contingent-liability accounting, and guarantee-payment conditions. |
+| VAL-006 | State immunity | Separate treaty formation from state immunity and sovereign execution; compare applicable international and domestic law. |
+| VAL-007 | Ingress enforcement | Distinguish treaty ratification, implementing legislation, domestic recognition of orders, and judicial review. |
+| VAL-008 | Human adjudication | Measure automation bias, false positives/negatives, independent review of underlying evidence, uncertainty documentation, inter-adjudicator consistency, and reason-giving. |
+| VAL-009 | Channel confidentiality | Test geographic failover, independent power, isolated key custody, privileged-content isolation, and resistance to host compromise. |
+| VAL-010 | Evaluator independence | Test quorum, recusal, continuing disclosures, credential suspension, remediation, and separation from operators. |------------------------------------------------------------------------
 
 No protocol should be marked complete merely because a specification,
 architecture diagram, or policy statement exists. Completion should
