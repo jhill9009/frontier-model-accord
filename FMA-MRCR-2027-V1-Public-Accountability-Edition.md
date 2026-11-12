@@ -704,6 +704,41 @@ deployment, or demonstrated efficacy from this document alone.
 
 ------------------------------------------------------------------------
 
+## 15. Dated status addendum — Phase II Cross-Provision Harmonization closure
+
+Addendum date: 12 November 2026
+Status: Phase II closed and locked as a frozen reference record.
+15.1 Scope closed
+
+Phase II — Cross-Provision Harmonization is closed across its four modules:
+
+    Institutional Authority and Emergency Delegation.
+    Independent Technical and Actuarial Governance.
+    Ledger and Accounting Interoperability.
+    Domestic Implementation and Cross-Border Enforceability.
+
+The corrected Final System-Level Governance Synthesis was accepted with precision corrections and locked as the definitive closing audit record.
+15.2 Register preservation
+
+The permanent audit register entries AUD-SMEF-219 through AUD-SMEF-295 remain preserved with their individual OPEN and PARTIAL dispositions and qualifications. Closure of the harmonization phase does not convert unresolved entries into resolved findings. This public addendum does not replace or reproduce the controlling register.
+15.3 Working successors and controlling text
+
+Five working successors remain separate from controlling Annex III: Article 7 bis (Facility Authority), Article 7 ter (Claim Priority), Article 7 quater (Actuarial Completeness), Article 7 quintus (Continuity Enforcement), and Article 10 bis (Migration Execution).
+
+These are working specifications, not adopted treaty text. Annex III remains unchanged. No consolidated governance amendment or replacement treaty text was authorized.
+15.4 Explicit distinction from independent validation
+
+This closure concerns Phase II Cross-Provision Harmonization. It is not the separately identified Phase 2 independent validation roadmap described in Section 9 of this Public Accountability Edition.
+
+VAL-001 through VAL-010 remain open. Their status is not changed by this addendum. Documentary harmonization and a closed drafting phase do not establish independent empirical validation, legal enforceability, operational performance, or implementation readiness.
+15.5 No implementation-readiness claim; no next phase authorized
+
+No operational, financial, technical, or domestic legal implementation readiness is established or claimed. No subsequent phase is authorized by this addendum. Any later phase requires separate, explicit authorization.
+
+Public status statement: Phase II Cross-Provision Harmonization is closed and locked as a frozen documentary reference record. The wider FMA remains a developing proposal subject to unresolved issues and independent validation requirements.
+
+Document-control note: This addendum supplements the 9 November 2026 Public Accountability Edition baseline. It does not supersede the controlling master register, alter Annex III, close VAL-001 through VAL-010, or change the status of any individual audit-register entry.
+
 **Document control:** FMA-MRCR-2027-V1.1-PUBLIC\
 **Source baseline:** FMA-MRCR-2027-V1.1 --- Consolidated Working Baseline\
 **Relationship to master:** Derivative public disclosure edition; not
