@@ -107,6 +107,24 @@ This repository is an evolving public record of the Frontier Model Accord.
 The Universal Blueprint and Public Accountability Edition are published. The remaining principal artifacts are part of the planned documentary architecture and will be added as their publication versions are prepared.
 
 The publication of a document does not imply completion of the entire framework.
+Phase II — Cross-Provision Harmonization (12 November 2026)
+
+Phase II, covering system-level cross-provision harmonization, is closed and locked. Its four modules—Institutional Authority and Emergency Delegation; Independent Technical and Actuarial Governance; Ledger and Accounting Interoperability; and Domestic Implementation and Cross-Border Enforceability—are closed. The corrected Final System-Level Governance Synthesis is preserved as the definitive Phase II closing record.
+
+The permanent audit register entries AUD-SMEF-219 through AUD-SMEF-295 remain preserved with their individual OPEN and PARTIAL dispositions. Phase closure does not imply that every underlying issue has been resolved.
+
+The five working successors (Articles 7 bis, 7 ter, 7 quater, 7 quintus, and 10 bis) remain separate working specifications, not adopted treaty text. Controlling Annex III is unchanged, and no consolidated governance amendment has been authorized.
+
+This Phase II is not the separately listed Phase 2 independent validation roadmap. VAL-001 through VAL-010 remain open. Documentary harmonization does not establish implementation readiness, independent validation, legal enforceability, or operational performance.
+
+See: PHASE-II-CROSS-PROVISION-HARMONIZATION-CLOSURE-2026-11-12.md.
+Editorial safeguards
+
+    Preserve the README's existing general status language.
+    Do not change the status of the ten independent validation protocols.
+    Do not describe the five working successors as adopted or controlling treaty text.
+    Do not imply that closure authorizes a subsequent phase.
+
 Invitation to Review
 
 The project welcomes serious scrutiny from researchers, AI developers, legal scholars, policymakers, technical specialists, institutional designers, and interested members of the public.
